@@ -24,3 +24,10 @@ $ionicons-font-path: "../assets/fonts" !default;
 .comma + .comma:before {
     content: ", ";
 }
+
+.double-button {
+    width: 45vmin;
+}
+.blocked-account {
+    color: $assertive;
+}

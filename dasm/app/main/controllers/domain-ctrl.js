@@ -5,10 +5,17 @@ angular.module('main')
   var domain = this
   domain.shouldShowDelete = false
   domain.name = $stateParams.domain
+  domain.owner = true
   domain.refreshDeputies = function () {
     var log = debug('app:domain:deputies')
     return PDD.deputy.list(domain.name)
       .then(function (result) {
+        if (!result) {
+          log('You are now owner of ' + domain.name)
+          domain.deputies = []
+          domain.owner = false
+          return
+        }
         domain.deputies = result.deputies.reduce(function(prev, cur) {
           return prev.concat(angular.isArray(cur) ? cur : [cur])
         }, [])
@@ -44,6 +51,9 @@ angular.module('main')
   }
   domain.doRefresh()
 
+  domain.isBlocked = function (account) {
+    return 'no' === account.enabled
+  }
   var $aliasesScope = $scope.$root.$new()
   var aliasesModal = $ionicModal.fromTemplateUrl('main/templates/aliases.html', {
     scope: $aliasesScope,
@@ -54,7 +64,7 @@ angular.module('main')
   }
 
   var $mailboxScope = $scope.$root.$new()
-  var mailboxModal = $ionicModal.fromTemplateUrl('main/templates/mailbox.html', {
+  var mailboxModal = $ionicModal.fromTemplateUrl('main/templates/mailbox_add.html', {
     scope: $mailboxScope,
     animation: 'slide-in-up'
   })
