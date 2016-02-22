@@ -1,6 +1,6 @@
 'use strict';
 angular.module('main')
-.controller('DomainsCtrl', function ($log, $scope, $ionicModal, PDD) {
+.controller('DomainsCtrl', function ($log, $scope, $ionicModal, $ionicPopup, PDD) {
   var domains = this;
 
   domains.statusTitles = {
@@ -66,4 +66,30 @@ angular.module('main')
       modal.show();
     });
   };
+
+  domains.delete = function (name) {
+    $ionicPopup.confirm({
+      title: 'Удаление',
+      template: 'Вы действительно хотите домен ' + name + '?',
+      cancelText: 'Отмена',
+      confirmText: 'ОК'
+    }).then(function (res) {
+      if (res) {
+        PDD.domain.delete(name)
+          .then(function (result) {
+            if (result.success && 'ok' === result.success) {
+              domains.doRefresh()
+            }
+            else if (result.error) {
+              throw  new Error(result.error)
+            }
+            else {
+              throw new Error(angular.toJson(result))
+            }
+          }, function (err) {
+            alert('Ошибка ' + err.message)
+          })
+      }
+    });
+  }
 });
