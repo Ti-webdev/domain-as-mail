@@ -1,28 +1,28 @@
 {
   "dependencies": {
-    "ionic": "~1.2.1",
-    "angular": "~1.4.8",
-    "angular-animate": "~1.4.8",
-    "angular-sanitize": "~1.4.8",
-    "angular-ui-router": "~0.2.15",
-    "ngCordova": "~0.1.23-alpha",
-    "angular-dynamic-locale": "~0.1.29",
-    "angular-translate": "~2.8.1",
-    "angular-translate-loader-static-files": "~2.8.1",
+    "ionic": "~1.2.4",
+    "angular": "~1.5.0",
+    "angular-animate": "~1.5.0",
+    "angular-sanitize": "~1.5.0",
+    "angular-ui-router": "~0.2.18",
+    "ngCordova": "~0.1.24-alpha",
+    "angular-dynamic-locale": "~0.1.30",
+    "angular-translate": "~2.9.2",
+    "angular-translate-loader-static-files": "~2.9.2",
     "angular-localForage": "~1.2.5",
     "punycode": "~1.4.0",
     "angular-debug": "~0.1.1",
-    "ng-focus-if": "~1.0.2"
+    "ng-focus-if": "~1.0.4"
   },
   "devDependencies": {
-    "angular-mocks": "~1.4.8"
+    "angular-mocks": "~1.5.0"
   },
   "resolutions": {
-    "angular": "~1.4.8",
-    "angular-animate": "~1.4.8",
-    "angular-sanitize": "~1.4.8",
-    "angular-ui-router": "~0.2.15",
-    "angular-translate": "~2.8.1",
+    "angular": "~1.5.0",
+    "angular-animate": "~1.5.0",
+    "angular-sanitize": "~1.5.0",
+    "angular-ui-router": "~0.2.18",
+    "angular-translate": "~2.9.2",
     "localforage": "1.2.10"
   },
   "name": "Domain As Mail",
