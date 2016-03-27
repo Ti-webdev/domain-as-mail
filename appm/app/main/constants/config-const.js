@@ -6,7 +6,8 @@ angular.module('main')
   // https://github.com/mwaylabs/generator-m#gulp-environment
   ENV: {
     /*inject-env*/
-    'URL': 'https://pddimp.yandex.ru/api2/admin/'
+    'URL': 'https://domain-as-mail.ru/pddimp.yandex.ru/api2/admin/',
+    'BASE_HREF': 'https://domain-as-mail.ru/'
     /*endinject*/
   },
 
