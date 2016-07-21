@@ -10,13 +10,91 @@
 }
 .flex-full {
   flex: 1 1 auto;
-  height: auto;
+  height: 90%;
 }
 .text-big-text {
   font-size: 200%;
   line-height: 1.5;
 }
 .text-code {
-  font-family: monospace;
+  font-family: Roboto-Medium;
   resize: none;
+}
+.underline-text {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #24c4bc;
+  font-family:Roboto-Regular;
+  font-size:18px;
+  color:#4b4b4b;
+  letter-spacing:0px;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #4b4b4b;
+}
+
+.apiKeyBackground {
+  background:#ffffff;
+  width:375px;
+  height:212px;
+  width: auto;
+}
+.signup {
+  background-image: url('../../main/assets/images/pttrn_light@2x.png');
+  background-size: 120%;
+}
+.signupPadding {
+  height: 17%;
+  margin-bottom: 8%;
+  text-align: center;
+}
+
+.signupPaddingBottom
+{
+  height: 55%;
+  text-align: center;
+  padding-top: 0;
+  z-index: 2;
+}
+
+.apiKeyHeader {
+  font-family:Roboto-Regular;
+  font-size:12px;
+  color:rgba(0,0,0,0.54);
+  float:left;
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.apiKeyButton {
+  background:#2b2f3f;
+  box-shadow:0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+  border-radius:5px;
+  width:191px;
+  height:41px;
+  margin: 11% 0 0 0%;
+}
+.apiKeyButtonText {
+  font-family:Roboto-Medium;
+  font-size:18px;
+  color:#ffffff;
+  letter-spacing:0.64px;
+  text-align:center;
+}
+.saveApiKeyButton {
+  background:#24c4bc;
+  box-shadow:0px 0px 1px 0px rgba(0,0,0,0.12), 0px 1px 2px 0px rgba(0,0,0,0.24);
+  border-radius:5px;
+  width:219px;
+  height:44px;
+  margin-top: -4em;
+}
+.saveApiKeyButtonText {
+  font-family:Roboto-Medium;
+  font-size:20px;
+  color:#ffffff;
+  letter-spacing:0.71px;
+  text-align:center;
 }

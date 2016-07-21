@@ -78,8 +78,8 @@ angular.module('main')
         type = $newDNSScope.newDNS.type
 
       $newDNSScope.fields = {
-        content: 'Содержимое DNS записи',
         subdomain: 'Имя поддомена',
+        content: 'Содержимое DNS записи',
         ttl: 'Время жизни DNS-записи в секундах'
       }
 
