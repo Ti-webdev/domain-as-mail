@@ -11,6 +11,7 @@ var bsInit = function (paths, openOverride) {
     server: {
       baseDir: paths
     },
+    port: process.env.PORT || 3000,
     open: false,
     notify: false
   };

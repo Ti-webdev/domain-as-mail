@@ -9,7 +9,7 @@ angular.module('domainAsMail', [
   'signup'
 ])
 .config(function ($locationProvider) {
-  if (/^https?:/.test(location.protocol) && 'localhost' !== location.hostname) {
+  if (/^https?:/.test(location.protocol) && !/^localhost$|^192\.168\.|^127\.0\./.test(location.hostname)) {
     $locationProvider.html5Mode({
       enabled: true,
       requireBase: false
