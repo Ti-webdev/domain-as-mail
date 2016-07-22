@@ -1,6 +1,6 @@
 <ion-view hide-nav-bar="true" class="signup">
   <ion-content scroll="false" >
-    <form ng-submit="signup.submit()" method="post">
+    <form method="post">
       <div class="list flex full-screen flex-column">
         <div class="padding signupPadding flex">
           <div class="apiKeyButton flex" href="https://pddimp.yandex.ru/api2/admin/get_tokenx" target="_blank" ng-click="signup.getApiKey()">
@@ -16,10 +16,10 @@
           <textarea class="flex-full text-big-text text-code underline-text" name="name" ng-model="signup.apiKey" placeholder="Введите API ключ здесь..." rows="8" cols="40" autofocus></textarea>
         </div>
         <div class="padding signupPaddingBottom">
-          <div type="submit" class="saveApiKeyButton flex" name="button">
+          <div type="submit" class="saveApiKeyButton flex" ng-click="signup.submit()" name="button">
             <div class="saveApiKeyButtonText">
               Сохранить API key
-            </div>
+            </button>
           </button>
         </div>
       </div>

@@ -24,7 +24,7 @@
     "angular-sanitize": "~1.4.8",
     "angular-ui-router": "~0.2.15",
     "angular-translate": "~2.8.1",
-    "localforage": "1.2.10"
+    "localforage": "^1.4.2"
   },
   "name": "Domain As Mail",
   "private": true
