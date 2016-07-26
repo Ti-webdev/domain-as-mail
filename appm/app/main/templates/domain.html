@@ -1,32 +1,38 @@
-<ion-view view-title="{{ domain.name }}">
+<ion-view view-title="@{{ domain.name }}">
   <ion-content>
     <ion-list
       show-delete="domain.shouldShowDelete">
-      <div>
-        <ion-item class="item-icon-right"
-                  ui-sref="main.mailboxList({domain: domain.name, owner: domain.owner})">
-          <i class="icon ion-ios-email-outline"></i>
-          Почтовые ящики
+      <div style="display:flex;align-content:space-between;flex-direction: column">
+        <div class="domainNameHeader">
+          {{ domain.name }}
+        </div>
+
+        <div style="display:flex;justify-content:space-between">
+          <ion-item class="item-icon-right"
+                    ui-sref="main.mailboxList({domain: domain.name, owner: domain.owner})">
+            <i class="icon ion-ios-email-outline"></i>
+            Почтовые ящики
+          </ion-item>
+          <ion-item class="item-icon-right"
+                    ui-sref="main.maillistList({domain: domain.name})">
+          <i class="icon ion-ios-list-outline"></i>
+          Рассылки
         </ion-item>
+        </div>
+
+        <div style="display:flex; justify-content:space-between" ng-if="domain.owner">
+          <ion-item class="item-icon-right"
+                    ui-sref="main.deputies({domain:domain.name})">
+            <i class="icon ion-ios-people"></i>
+            Администраторы
+          </ion-item>
+
         <ion-item class="item-icon-right"
-                  ui-sref="main.maillistList({domain: domain.name})">
-        <i class="icon ion-ios-list-outline"></i>
-        Рассылки
-      </ion-item>
-      </div>
-      <div ng-if="domain.owner">
-        <ion-item class="item-icon-right"
-                  ui-sref="main.deputies({domain:domain.name})">
-          <i class="icon ion-ios-people"></i>
-          Администраторы
+                  ui-sref="main.dnsList({domain: domain.name})">
+          <i class="icon ion-earth"></i>
+          DNS Записи
         </ion-item>
-      </div>
-      <div ng-if="domain.owner">
-      <ion-item class="item-icon-right"
-                ui-sref="main.dnsList({domain: domain.name})">
-        <i class="icon ion-earth"></i>
-        DNS Записи
-      </ion-item>
+        </div>
       </div>
     </ion-list>
 

@@ -24,3 +24,85 @@ $ionicons-font-path: "../assets/fonts" !default;
 .comma + .comma:before {
     content: ", ";
 }
+
+.domainNameHeader {
+  font-family:Roboto-Black;
+  font-size:33px;
+  color:rgba(0,0,0,0.87);
+  text-align:center;
+  display: flex;
+  justify-content: center;
+}
+
+.domains a.item-content > div > img {
+  padding-right: 10%;
+  border-radius: 0%;
+  }
+
+.domains a.item-content > div > div > p.DomainNameText {
+  font-family:Roboto-Regular;
+  font-size:18px;
+  color:#4b4b4b;
+  letter-spacing:0px;
+}
+
+.domains a.item-content > div > div > p.DomainStatusText {
+  font-family:Roboto-Regular;
+  font-size:14px;
+  color:#24c4bc;
+}
+
+.domains a.item-content {
+    background:#ffffff;
+    padding-left: 5%;
+  }
+
+.domains a.item-content i {
+    width: 1.67rem; }
+
+.domain-side-menu.menu {
+  background-color: #2b2f3f;
+}
+
+.domain-side-menu.header-color {
+  background-color: #2b2f3f;
+}
+
+.domain-side-menu.bar {
+  background-color: #2b2f3f;
+  background-size: 0px 0px;
+}
+
+.domain-side-menu.item {
+  border-color: transparent;
+  background-color: rgba(255,255,255,0);
+}
+
+.domain-side-menu a.item-content {
+  background-color: rgba(255,255,255,0.10);
+  color:rgba(255,255,255,0.87);
+  font-family:Roboto-Regular;
+  font-size:13.51px;
+}
+
+.ionContent {
+  background-image: url('../../main/assets/images/pttrn_light@2x.png');
+  background-size: 500px 100px;
+}
+
+.domain-side-menu > div.buttons.buttons-right > span > button
+{
+  color: white;
+}
+
+.domain-side-menu div.header-item {
+  font-family:Roboto-Bold;
+  font-size:18px;
+  color:#ffffff;
+  letter-spacing:0px;
+}
+
+.maincontent {
+  background-image: url('../../main/assets/images/pttrn_light@2x.png');
+  background-size: 500px 100px;
+}

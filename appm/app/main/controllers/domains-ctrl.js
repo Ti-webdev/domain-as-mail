@@ -4,9 +4,9 @@ angular.module('main')
   var domains = this;
 
   domains.statusTitles = {
-    'domain-activate': 'не подтвержден',
-    'mx-activate': 'подтвержден, MX-запись не настроена',
-    'added': 'домен подтвержден'
+    'domain-activate': 'Не подтвержден',
+    'mx-activate': 'Подтвержден, MX-запись не настроена',
+    'added': 'Домен подтвержден'
   };
 
   domains.statusClasses = {
@@ -20,6 +20,7 @@ angular.module('main')
       .then(function (result) {
         domains.domains = result.domains || [];
         domains.error = null;
+        domains.defaultLogo_Url = '../../main/assets/images/image@1x.png'
       })
       .catch(function (err) {
         domains.error = err;

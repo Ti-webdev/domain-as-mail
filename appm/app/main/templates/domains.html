@@ -1,9 +1,9 @@
-<ion-view view-title="Domains">
+<ion-view  class="viewTitle" view-title="Домены">
   <ion-nav-buttons side="right">
     <button class="button button-icon icon ion-ios-plus-empty" ng-click="domains.add()"></button>
   </ion-nav-buttons>
 
-  <ion-content>
+  <ion-content class="ionContent">
     <ion-refresher
       pulling-text="Pull to refresh..."
       on-refresh="domains.doRefresh()">
@@ -24,20 +24,25 @@
     <ion-list>
       <ion-item
         ng-repeat="domain in domains.domains"
-        class="item-avatar item-icon-right"
+        class="domains item-avatar item-icon-right"
         type="item-text-wrap"
         ui-sref="main.domain({domain: domain.name})">
-        <img ng-src="{{ domain.logo_url }}" ng-if="domain.logo_url">
-        <h2>{{ domain.name }}</h2>
-        <sup ng-if="'added' != domain.status">{{ domains.statusTitles[domain.status] || domain.status }}</sup>
-        <p>
-          <span class="comma" ng-repeat="alias in domain.aliases">{{ alias | idn }}</span>
-        </p>
-        <i class="icon ion-chevron-right icon-accessory"></i>
-        <ion-option-button class="button-assertive"
-                           ng-click="domains.delete(domain.name)">
-          Удалить
-        </ion-option-button>
+        <div style="display:flex;">
+
+          <img ng-src="{{ domain.logo_url || domains.defaultLogo_Url }}" ng-if="!domain.logo_url">
+          <div style="display:flex; flex-direction:column">
+            <p class="DomainNameText">{{ domain.name }}</p>
+            <p class="DomainStatusText" style="font-family:Roboto-Regular;font-size:14px;color:#24c4bc;">{{ domains.statusTitles[domain.status] || domain.status }}</h3>
+          </div>
+          <p>
+            <span class="comma" ng-repeat="alias in domain.aliases">{{ alias | idn }}</span>
+          </p>
+        </div>
+          <i class="icon ion-chevron-right icon-accessory"></i>
+          <ion-option-button class="button-assertive"
+                             ng-click="domains.delete(domain.name)">
+            Удалить
+          </ion-option-button>
       </ion-item>
     </ion-list>
 
