@@ -25,6 +25,68 @@ $ionicons-font-path: "../assets/fonts" !default;
     content: ", ";
 }
 
+.domainDetail {
+  display:flex;
+  align-content:space-between;
+  flex-direction: column;
+  height:100%
+}
+
+.domainDetailRow {
+  display:flex;
+  justify-content:space-around;
+  height:30%;
+  margin-bottom: 5%;
+}
+
+.domainItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 9%;
+  width: 45%;
+}
+
+.innerItem > img {
+  display: block;
+  margin: 0 auto;
+}
+
+.innerItem {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.innerItem {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.domainItemText {
+  font-family:Roboto-Regular;
+  font-size:15px;
+  color:rgba(0,0,0,0.87);
+  word-wrap: break-word;
+  text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top: 20%;
+}
+
+ion-content > div.scroll > ion-list > div.list {
+    height: 100%;
+    background-image: url('../../main/assets/images/pttrn_light@2x.png');
+    background-size: 500px 100px;
+}
+
+ion-content > div {
+  height: 100%;
+}
+
 .domainNameHeader {
   font-family:Roboto-Black;
   font-size:33px;
@@ -32,6 +94,8 @@ $ionicons-font-path: "../assets/fonts" !default;
   text-align:center;
   display: flex;
   justify-content: center;
+  height: 40%;
+  align-items: center;
 }
 
 .domains a.item-content > div > img {

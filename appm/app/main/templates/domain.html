@@ -1,37 +1,56 @@
 <ion-view view-title="@{{ domain.name }}">
   <ion-content>
     <ion-list
+      style="height:100%"
       show-delete="domain.shouldShowDelete">
-      <div style="display:flex;align-content:space-between;flex-direction: column">
+
+      <div class="domainDetail">
         <div class="domainNameHeader">
           {{ domain.name }}
         </div>
 
-        <div style="display:flex;justify-content:space-between">
-          <ion-item class="item-icon-right"
+        <div class="domainDetailRow">
+          <div class="domainItem"
                     ui-sref="main.mailboxList({domain: domain.name, owner: domain.owner})">
-            <i class="icon ion-ios-email-outline"></i>
-            Почтовые ящики
-          </ion-item>
-          <ion-item class="item-icon-right"
+
+            <div class="innerItem">
+              <img ng-src='../../main/assets/images/ico_post_boxes@1x.png'>
+
+              <div class="domainItemText">Почтовые ящики</div>
+            </div>
+          </div>
+
+          <div class="domainItem"
                     ui-sref="main.maillistList({domain: domain.name})">
-          <i class="icon ion-ios-list-outline"></i>
-          Рассылки
-        </ion-item>
+
+              <div class="innerItem">
+                <img ng-src='../../main/assets/images/ico_newspaper@1x.png'>
+                <p class="domainItemText">Рассылки</p>
+            </div>
+          </div>
         </div>
 
-        <div style="display:flex; justify-content:space-between" ng-if="domain.owner">
-          <ion-item class="item-icon-right"
-                    ui-sref="main.deputies({domain:domain.name})">
-            <i class="icon ion-ios-people"></i>
-            Администраторы
-          </ion-item>
+        <div class="domainDetailRow">
 
-        <ion-item class="item-icon-right"
+          <div class="domainItem"
+                    ui-sref="main.deputies({domain:domain.name})">
+            <div class="innerItem">
+              <img ng-src='../../main/assets/images/Shape@1x.png'>
+              <p class="domainItemText" style="word-wrap:initial;">Администраторы</p>
+            </div>
+
+          </div>
+
+        <div class="domainItem"
                   ui-sref="main.dnsList({domain: domain.name})">
-          <i class="icon ion-earth"></i>
-          DNS Записи
-        </ion-item>
+
+          <div class="innerItem">
+            <img ng-src='../../main/assets/images/Shape@1x (1).png'>
+
+            <p class="domainItemText">DNS Записи</p>
+          </div>
+
+        </div>
         </div>
       </div>
     </ion-list>
