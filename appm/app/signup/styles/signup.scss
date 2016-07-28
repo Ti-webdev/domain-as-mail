@@ -31,8 +31,13 @@ textarea::-webkit-input-placeholder {
   background-size: 500px 100px;
 
 }
+
+form.fullHeigth {
+  height: 100%;
+}
+
 .signupPadding {
-  height: 22%;
+  height: 40%;
   text-align: center;
   align-items: center;
   justify-content: center;

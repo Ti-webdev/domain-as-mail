@@ -32,6 +32,7 @@ angular.module('main')
       return PDD.email.query(mailboxList.domain)
         .then(function (result) {
           mailboxList.accounts = result.accounts.reduce(function(prev, cur) {
+            cur.prefix = cur.login.split('@')[0]
             return prev.concat(angular.isArray(cur) ? cur : [cur])
           }, []).filter(isNotMaillist)
         })
@@ -70,7 +71,10 @@ angular.module('main')
       var log = debug('app:domain:accounts')
       return PDD.email.query(mailboxList.domain)
         .then(function (result) {
-          mailboxList.accounts = result.accounts || []
+          mailboxList.accounts = result.accounts.reduce(function(prev, cur) {
+            cur.prefix = cur.login.split('@')[0]
+            return prev.concat(angular.isArray(cur) ? cur : [cur])
+          }, []) || []
           log('accounts loaded ' + mailboxList.accounts.length)
         })
         .catch(function (err) {
