@@ -15,6 +15,7 @@ angular.module('main')
     })
       .then(function (result) {
         mailbox.account = result.account || {}
+        mailbox.account.prefix = mailbox.account.login.split('@')[0]
         mailbox.account.blocked = 'yes' !== mailbox.account.enabled
         mailbox.realyBlocked = mailbox.account.blocked
         log('mailbox loaded ' + mailbox.account)
