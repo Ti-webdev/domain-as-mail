@@ -19,6 +19,17 @@ angular.module('main')
         mailbox.account.blocked = 'yes' !== mailbox.account.enabled
         mailbox.realyBlocked = mailbox.account.blocked
         log('mailbox loaded ' + mailbox.account)
+
+        var
+          params = {
+            domain: mailbox.domain,
+            login: mailbox.login.toLowerCase(),
+          }
+
+        PDD.email.countersMailbox(params)
+          .then(function (result) {
+            mailbox.account.counters = result.counters
+          })
       })
       .catch(function (err) {
         log('error code: ' + err.code)

@@ -25,12 +25,93 @@ $ionicons-font-path: "../assets/fonts" !default;
     content: ", ";
 }
 
+div.mailboxCancelButton {
+  background:#4b4b4b;
+  box-shadow:0px 0px 1px 0px rgba(0,0,0,0.12), 0px 1px 2px 0px rgba(0,0,0,0.24);
+  border-radius:5px;
+  width:6.625rem;
+  height:2.75rem;
+}
+
+.mailboxSaveBtnText {
+  font-family:Roboto-Medium;
+  font-size:20px;
+  color:#ffffff;
+  letter-spacing:0px;
+}
+
+div.mailboxSaveBtn {
+  background:#24c4bc;
+  box-shadow:0px 0px 1px 0px rgba(0,0,0,0.12), 0px 1px 2px 0px rgba(0,0,0,0.24);
+  border-radius:5px;
+  width:8.43rem;
+  height:2.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+input.inputText {
+  font-family:Roboto-Regular;
+  font-size:1.125rem;
+  color:#4b4b4b;
+  letter-spacing:0px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #e7e8ef;
+}
+
+.inputHeader {
+  font-size:0.75rem;
+  font-family:Roboto-Regular;
+  color:rgba(0,0,0,0.54);
+}
+
+.mailItem {
+  background:#ffffff;
+  height:3.5rem;
+  padding-right:1rem;
+} p.mailItemText {
+  font-family:Roboto-Regular;
+  font-size:18px;
+  color:#4b4b4b;
+  letter-spacing:0px;
+}
+
+p.mailboxHeaderCounters {
+  font-family:Roboto-Regular;
+  font-size:0.875rem;
+  color:#ffffff;
+  letter-spacing:0px;
+}
+
+p.mailboxHeaderText {
+  font-size:1.5rem;
+  font-family:Roboto-Regular;
+  color:#ffffff;
+  letter-spacing:0px;
+  height:70%
+}
+
+p.mailboxSubHeader {
+  margin-top:2rem;
+  font-family:Roboto-Black;
+  font-size:3em;
+  color:#2ad2ca;
+  letter-spacing:0px;
+  text-align:left;
+  height:4rem;
+}
+
+.mailboxHeader {
+  border-top:0px;
+  background:#24c4bc;
+}
+
 .searchInput {
   background:#fafafa;
   box-shadow:0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
   border-radius:2px;
-  width:341px;
-  height:46px;
+  height:3.25em;
 }
 
 .searchIcon {
@@ -80,7 +161,7 @@ $ionicons-font-path: "../assets/fonts" !default;
 
 .domainItemText {
   font-family:Roboto-Regular;
-  font-size:15px;
+  font-size:0.9375rem;
   color:rgba(0,0,0,0.87);
   word-wrap: break-word;
   text-align: center;
@@ -91,7 +172,7 @@ $ionicons-font-path: "../assets/fonts" !default;
 }
 
 div.list {
-    height: 100%;
+    height: auto;
 }
 
 ion-content > div {
@@ -100,12 +181,12 @@ ion-content > div {
 
 .domainNameHeader {
   font-family:Roboto-Black;
-  font-size:33px;
+  font-size:2.05rem;
   color:rgba(0,0,0,0.87);
   text-align:center;
   display: flex;
   justify-content: center;
-  height: 40%;
+  height: 33vh;
   align-items: center;
 }
 
@@ -116,14 +197,14 @@ ion-content > div {
 
 .domains a.item-content > div > div > p.DomainNameText {
   font-family:Roboto-Regular;
-  font-size:18px;
+  font-size:1.12rem;
   color:#4b4b4b;
   letter-spacing:0px;
 }
 
 .domains a.item-content > div > div > p.DomainStatusText {
   font-family:Roboto-Regular;
-  font-size:14px;
+  font-size:1rem;
   color:#24c4bc;
 }
 
@@ -157,12 +238,12 @@ ion-content > div {
   background-color: rgba(255,255,255,0.10);
   color:rgba(255,255,255,0.87);
   font-family:Roboto-Regular;
-  font-size:13.51px;
+  font-size:0.8125rem;
 }
 
 .ionContent {
   background-image: url('../../main/assets/images/pttrn_light@2x.png');
-  background-size: 500px 100px;
+  background-size: 35.8em 7.2em;
 }
 
 .domain-side-menu > div.buttons.buttons-right > span > button
@@ -172,7 +253,7 @@ ion-content > div {
 
 .domain-side-menu div.header-item {
   font-family:Roboto-Bold;
-  font-size:18px;
+  font-size:1.125rem;
   color:#ffffff;
   letter-spacing:0px;
 }
