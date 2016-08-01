@@ -66,6 +66,11 @@ input.inputText {
   color:rgba(0,0,0,0.54);
 }
 
+.noBorderBottom {
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+}
+
 .mailItem {
   background:#ffffff;
   height:3.5rem;
