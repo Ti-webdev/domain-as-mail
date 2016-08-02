@@ -27,7 +27,8 @@
     </div>
 
     <ion-list>
-      <ion-item ng-repeat="list in maillistList.mailLists" type="item-text-wrap" ng-click="maillistList.showSubscribers(list)">
+      <ion-item ng-repeat="list in maillistList.mailLists" type="item-text-wrap"
+      ui-sref="main.maillistSubscribers({domain: maillistList.domain, maillist: list.maillist})">
         <h2>{{ list.maillist }}</h2>
         <p>Количество подписчиков {{ list.cnt }}</p>
         <ion-delete-button class="ion-minus-circled"

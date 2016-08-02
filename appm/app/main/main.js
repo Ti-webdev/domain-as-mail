@@ -84,6 +84,15 @@ angular.module('main', [])
         }
       }
     })
+    .state('main.maillistSubscribers', {
+      url: '/domain/:domain/maillist/maillist/:maillist',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/subscribers.html',
+          controller: 'subscribersAddCtrl as ctrl'
+        }
+      }
+    })
     .state('main.maillistListAdd', {
       url: '/domain/:domain/maillist/add',
       views: {

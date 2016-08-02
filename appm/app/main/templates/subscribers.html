@@ -1,34 +1,29 @@
-<ion-modal-view>
-  <ion-header-bar class="bar-royal">
-    <h1 class="title">Подписчики {{ list.maillist }}</h1>
-    <div class="buttons">
-      <button class="button button-clear" ng-click="modal.hide()">Закрыть</button>
-    </div>
-  </ion-header-bar>
-  <ion-content>
-  <ion-list
-    show-delete="newSubscriber.shouldShowDelete && subscribers.length">
-      <form class="item item-input-inset">
-        <label class="item-input-wrapper">
-          <input ng-model="newSubscriber.name" type="text" placeholder="Email подписчика" focus-if="newSubscriber.focus" required>
-        </label>
-      </form>
-      <ion-item class="item-button-right" ng-repeat="subscriber in subscribers | filter:newSubscriber.name">
+<ion-view view-title="Подписчики {{ list.maillist }}">
+
+  <ion-content class="ionContent">
+    <ion-list
+      show-delete="ctrl.newSubscriber.shouldShowDelete && ctrl.subscribers.length">
+
+      <ion-item class="noBorderBottom mailItem item item-input item-stacked-label" style="height:3.5rem; border-top-width:1px;";>
+        <input class="inputText" placeholder="Email подписчика" type="text" ng-model="ctrl.newSubscriber.name" required focus-if="ctrl.newSubscriber.focus">
+      </ion-item>
+
+      <ion-item class="item-button-right" ng-repeat="subscriber in ctrl.subscribers | filter:newSubscriber.name">
         {{ subscriber }}
 
-        <button ng-click="delSubscribers(subscriber)" type="button" class="button button-icon icon ion-minus-circled royal"></button>
+        <button ng-click="ctrl.delSubscribers(subscriber)" type="button" class="button button-icon icon ion-minus-circled calm"></button>
       </ion-item>
 
       <ion-item class="item-divider">Добавить:</ion-item>
 
-      <ion-item class="item-button-right" ng-repeat="account in maillistList.accounts |
-                                      filter: isNotSubscribe |
-                                      filter:newSubscriber.name |
-                                      filter: isNotCurrentMaillist">
+      <ion-item class="item-button-right" ng-repeat="account in ctrl.accounts |
+                                      filter: ctrl.isNotSubscribe |
+                                      filter: ctrl.newSubscriber.name |
+                                      filter: ctrl.isNotCurrentMaillist">
         {{ account.login }}
 
-        <button ng-click="addSubscribers(account.login)" type="button" class="button button-icon icon ion-plus-circled royal"></button>
+        <button ng-click="ctrl.addSubscribers(account.login)" type="button" class="button button-icon icon ion-plus-circled calm"></button>
       </ion-item>
     </ion-list>
   </ion-content>
-</ion-modal-view>
+</ion-view>

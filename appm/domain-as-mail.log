@@ -824,3 +824,1258 @@ app/main/controllers/maillistAddList-ctrl.js
 [09:54:21] Finished 'eslint' after 1.23 s
 [09:54:21] Starting 'linting'...
 [09:54:21] Finished 'linting' after 5.2 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was added, running tasks...
+[10:02:42] Starting 'clean'...
+[10:02:42] Starting 'wiredep'...
+[10:02:42] Starting 'bower-fonts'...
+[10:02:42] Starting 'environment'...
+[10:02:42] gulp-inject Nothing to inject into main/constants/config-const.js.
+[10:02:42] Finished 'wiredep' after 119 ms
+[10:02:42] Finished 'environment' after 70 ms
+[10:02:42] Starting 'build-vars'...
+[10:02:42] Finished 'clean' after 137 ms
+[10:02:42] Starting 'styles'...
+[10:02:42] gulp-inject 1 files into main/constants/config-const.js.
+File /pj/domain-as-mail/appm/app/index.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:02:43] Starting 'eslint'...
+[10:02:43] Starting 'jsonlint'...
+[10:02:43] Starting 'environment'...
+[BS] Reloading Browsers...
+File /pj/domain-as-mail/appm/app/main/constants/config-const.js was changed, running tasks...
+[10:02:43] Finished 'build-vars' after 1.07 s
+[10:02:43] gulp-inject Nothing to inject into main/constants/config-const.js.
+File /pj/domain-as-mail/appm/.tmp/main/styles/main.css was changed, running tasks...
+[BS] Reloading Browsers...
+[10:02:44] Finished 'jsonlint' after 254 ms
+[10:02:44] Finished 'environment' after 283 ms
+File /pj/domain-as-mail/appm/.tmp/signup/styles/signup.css was changed, running tasks...
+[BS] Reloading Browsers...
+[10:02:44] Starting 'jsonlint'...
+[10:02:44] Finished 'styles' after 1.46 s
+[10:02:44] Finished 'jsonlint' after 205 ms
+[10:02:45] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+[10:02:45] Finished 'eslint' after 1.39 s
+[10:02:45] Starting 'linting'...
+[10:02:45] Finished 'linting' after 11 μs
+Finished 'bower-fonts' after 2.83 s
+[10:02:45] Starting 'inject-all'...
+[10:02:45] [10:02:45] gulp-inject 17 files into index.html.
+[10:02:45] gulp-inject 2 files into index.html.
+[10:02:45] Finished 'inject-all' after 170 ms
+File /pj/domain-as-mail/appm/app/index.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:02:45] Starting 'eslint'...
+[10:02:45] Starting 'jsonlint'...
+[10:02:45] Finished 'jsonlint' after 200 ms
+[10:02:47] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+[10:02:47] Finished 'eslint' after 1.27 s
+[10:02:47] Starting 'linting'...
+[10:02:47] Finished 'linting' after 4.94 μs
+File /pj/domain-as-mail/appm/app/main/main.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:06:47] Starting 'eslint'...
+[10:06:47] Starting 'jsonlint'...
+[10:06:47] Finished 'jsonlint' after 285 ms
+[10:06:48] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+[10:06:48] Finished 'eslint' after 1.36 s
+[10:06:48] Starting 'linting'...
+[10:06:48] Finished 'linting' after 6.11 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:07:20] Starting 'eslint'...
+[10:07:20] Starting 'jsonlint'...
+[10:07:20] Finished 'jsonlint' after 188 ms
+[10:07:21] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used           no-unused-vars
+   7:9   error  "maillistList" is defined but never used  no-unused-vars
+   8:5   error  "subscribers" is not defined              no-undef
+   9:5   error  "subscribers" is not defined              no-undef
+  11:5   error  "subscribers" is not defined              no-undef
+  15:5   error  "subscribers" is not defined              no-undef
+  17:17  error  "subscribers" is not defined              no-undef
+  18:19  error  "subscribers" is not defined              no-undef
+  24:13  error  "$subscribersScope" is not defined        no-undef
+  25:13  error  "$subscribersScope" is not defined        no-undef
+  26:36  error  "$subscribersScope" is not defined        no-undef
+  27:15  error  "$subscribersScope" is not defined        no-undef
+  28:15  error  "$subscribersScope" is not defined        no-undef
+
+✖ 14 problems (14 errors, 0 warnings)
+
+[10:07:21] Finished 'eslint' after 1.3 s
+[10:07:21] Starting 'linting'...
+[10:07:21] Finished 'linting' after 4.56 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:10:28] Starting 'eslint'...
+[10:10:28] Starting 'jsonlint'...
+[10:10:28] Finished 'jsonlint' after 277 ms
+[10:10:29] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used           no-unused-vars
+   7:9   error  "maillistList" is defined but never used  no-unused-vars
+   8:5   error  "subscribers" is not defined              no-undef
+   9:5   error  "subscribers" is not defined              no-undef
+  11:5   error  "subscribers" is not defined              no-undef
+  15:5   error  "subscribers" is not defined              no-undef
+  17:17  error  "subscribers" is not defined              no-undef
+  18:19  error  "subscribers" is not defined              no-undef
+  24:13  error  "$subscribersScope" is not defined        no-undef
+  25:13  error  "$subscribersScope" is not defined        no-undef
+  26:36  error  "$subscribersScope" is not defined        no-undef
+  27:15  error  "$subscribersScope" is not defined        no-undef
+  28:15  error  "$subscribersScope" is not defined        no-undef
+
+✖ 14 problems (14 errors, 0 warnings)
+
+[10:10:29] Finished 'eslint' after 1.51 s
+[10:10:29] Starting 'linting'...
+[10:10:29] Finished 'linting' after 6.86 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:10:52] Starting 'eslint'...
+[10:10:52] Starting 'jsonlint'...
+[10:10:52] Finished 'jsonlint' after 185 ms
+[10:10:53] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used           no-unused-vars
+   7:9   error  "maillistList" is defined but never used  no-unused-vars
+   8:5   error  "subscribers" is not defined              no-undef
+   9:5   error  "subscribers" is not defined              no-undef
+  11:5   error  "subscribers" is not defined              no-undef
+  15:5   error  "subscribers" is not defined              no-undef
+  17:17  error  "subscribers" is not defined              no-undef
+  18:19  error  "subscribers" is not defined              no-undef
+  24:13  error  "$subscribersScope" is not defined        no-undef
+  25:13  error  "$subscribersScope" is not defined        no-undef
+  26:36  error  "$subscribersScope" is not defined        no-undef
+  27:15  error  "$subscribersScope" is not defined        no-undef
+  28:15  error  "$subscribersScope" is not defined        no-undef
+
+✖ 14 problems (14 errors, 0 warnings)
+
+[10:10:53] Finished 'eslint' after 1.3 s
+[10:10:53] Starting 'linting'...
+[10:10:53] Finished 'linting' after 7.09 μs
+File /pj/domain-as-mail/appm/app/main/templates/maillist_list.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:11:35] Starting 'eslint'...
+[10:11:35] Starting 'jsonlint'...
+[10:11:35] Finished 'jsonlint' after 209 ms
+[10:11:36] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used           no-unused-vars
+   7:9   error  "maillistList" is defined but never used  no-unused-vars
+   8:5   error  "subscribers" is not defined              no-undef
+   9:5   error  "subscribers" is not defined              no-undef
+  11:5   error  "subscribers" is not defined              no-undef
+  15:5   error  "subscribers" is not defined              no-undef
+  17:17  error  "subscribers" is not defined              no-undef
+  18:19  error  "subscribers" is not defined              no-undef
+  24:13  error  "$subscribersScope" is not defined        no-undef
+  25:13  error  "$subscribersScope" is not defined        no-undef
+  26:36  error  "$subscribersScope" is not defined        no-undef
+  27:15  error  "$subscribersScope" is not defined        no-undef
+  28:15  error  "$subscribersScope" is not defined        no-undef
+
+✖ 14 problems (14 errors, 0 warnings)
+
+[10:11:36] Finished 'eslint' after 1.27 s
+[10:11:36] Starting 'linting'...
+[10:11:36] Finished 'linting' after 3.88 μs
+[BS] Reloading Browsers...
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[10:12:05] Starting 'eslint'...
+[10:12:05] Starting 'jsonlint'...
+[10:12:05] Finished 'jsonlint' after 292 ms
+[10:12:06] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  24:13  error  "$subscribersScope" is not defined  no-undef
+  25:13  error  "$subscribersScope" is not defined  no-undef
+  26:36  error  "$subscribersScope" is not defined  no-undef
+  27:15  error  "$subscribersScope" is not defined  no-undef
+  28:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[10:12:06] Finished 'eslint' after 1.28 s
+[10:12:06] Starting 'linting'...
+[10:12:06] Finished 'linting' after 3.88 μs
+File /pj/domain-as-mail/appm/app/main/templates/maillist_list.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:14:17] Starting 'eslint'...
+[10:14:17] Starting 'jsonlint'...
+[10:14:17] Finished 'jsonlint' after 317 ms
+[10:14:18] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  24:13  error  "$subscribersScope" is not defined  no-undef
+  25:13  error  "$subscribersScope" is not defined  no-undef
+  26:36  error  "$subscribersScope" is not defined  no-undef
+  27:15  error  "$subscribersScope" is not defined  no-undef
+  28:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[10:14:18] Finished 'eslint' after 1.21 s
+[10:14:18] Starting 'linting'...
+[10:14:18] Finished 'linting' after 5.85 μs
+File /pj/domain-as-mail/appm/app/main/main.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:16:02] Starting 'eslint'...
+[10:16:02] Starting 'jsonlint'...
+[10:16:02] Finished 'jsonlint' after 206 ms
+[10:16:04] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  24:13  error  "$subscribersScope" is not defined  no-undef
+  25:13  error  "$subscribersScope" is not defined  no-undef
+  26:36  error  "$subscribersScope" is not defined  no-undef
+  27:15  error  "$subscribersScope" is not defined  no-undef
+  28:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[10:16:04] Finished 'eslint' after 1.39 s
+[10:16:04] Starting 'linting'...
+[10:16:04] Finished 'linting' after 6.16 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:19:18] Starting 'eslint'...
+[10:19:18] Starting 'jsonlint'...
+[10:19:19] Finished 'jsonlint' after 279 ms
+[10:19:20] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  15:30  error  "maillistList" is not defined       no-undef
+  15:51  error  "list" is not defined               no-undef
+  17:55  error  Trailing spaces not allowed         no-trailing-spaces
+  30:13  error  "$subscribersScope" is not defined  no-undef
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:36  error  "$subscribersScope" is not defined  no-undef
+  33:15  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 10 problems (10 errors, 0 warnings)
+
+[10:19:20] Finished 'eslint' after 1.38 s
+[10:19:20] Starting 'linting'...
+[10:19:20] Finished 'linting' after 7.15 μs
+File /pj/domain-as-mail/appm/app/main/templates/maillist_list.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:21:38] Starting 'eslint'...
+[10:21:38] Starting 'jsonlint'...
+[10:21:39] Finished 'jsonlint' after 286 ms
+[10:21:40] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  15:30  error  "maillistList" is not defined       no-undef
+  15:51  error  "list" is not defined               no-undef
+  17:55  error  Trailing spaces not allowed         no-trailing-spaces
+  30:13  error  "$subscribersScope" is not defined  no-undef
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:36  error  "$subscribersScope" is not defined  no-undef
+  33:15  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 10 problems (10 errors, 0 warnings)
+
+[10:21:40] Finished 'eslint' after 1.45 s
+[10:21:40] Starting 'linting'...
+[10:21:40] Finished 'linting' after 7.39 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:22:05] Starting 'eslint'...
+[10:22:05] Starting 'jsonlint'...
+[10:22:06] Finished 'jsonlint' after 240 ms
+[10:22:07] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  16:30  error  "maillistList" is not defined       no-undef
+  16:51  error  "list" is not defined               no-undef
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:13  error  "$subscribersScope" is not defined  no-undef
+  33:36  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+  35:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[10:22:07] Finished 'eslint' after 1.22 s
+[10:22:07] Starting 'linting'...
+[10:22:07] Finished 'linting' after 6.92 μs
+File /pj/domain-as-mail/appm/app/main/templates/maillist_list.html was changed, running tasks...
+[BS] Reloading Browsers...
+Starting 'eslint'...
+[10:22:21] [10:22:21] Starting 'jsonlint'...
+[10:22:21] Finished 'jsonlint' after 196 ms
+[10:22:22] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  16:30  error  "maillistList" is not defined       no-undef
+  16:51  error  "list" is not defined               no-undef
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:13  error  "$subscribersScope" is not defined  no-undef
+  33:36  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+  35:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[10:22:22] Finished 'eslint' after 1.39 s
+[10:22:22] Starting 'linting'...
+[10:22:22] Finished 'linting' after 6.67 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:22:29] Starting 'eslint'...
+[10:22:29] Starting 'jsonlint'...
+[10:22:29] Finished 'jsonlint' after 214 ms
+[10:22:30] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  16:30  error  "maillistList" is not defined       no-undef
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:13  error  "$subscribersScope" is not defined  no-undef
+  33:36  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+  35:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[10:22:30] Finished 'eslint' after 1.24 s
+[10:22:30] Starting 'linting'...
+[10:22:30] Finished 'linting' after 5.58 μs
+File /pj/domain-as-mail/appm/app/main/templates/maillist_list.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:22:53] Starting 'eslint'...
+[10:22:53] Starting 'jsonlint'...
+[10:22:54] Finished 'jsonlint' after 179 ms
+[10:22:55] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  16:30  error  "maillistList" is not defined       no-undef
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:13  error  "$subscribersScope" is not defined  no-undef
+  33:36  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+  35:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[10:22:55] Finished 'eslint' after 1.23 s
+[10:22:55] Starting 'linting'...
+[10:22:55] Finished 'linting' after 11 μs
+File /pj/domain-as-mail/appm/app/main/main.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:23:25] Starting 'eslint'...
+[10:23:25] Starting 'jsonlint'...
+[10:23:25] Finished 'jsonlint' after 199 ms
+[10:23:27] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  16:30  error  "maillistList" is not defined       no-undef
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:13  error  "$subscribersScope" is not defined  no-undef
+  33:36  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+  35:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[10:23:27] Finished 'eslint' after 1.35 s
+[10:23:27] Starting 'linting'...
+[10:23:27] Finished 'linting' after 3.84 μs
+File /pj/domain-as-mail/appm/app/main/main.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:23:28] Starting 'eslint'...
+[10:23:28] Starting 'jsonlint'...
+[10:23:28] Finished 'jsonlint' after 177 ms
+[10:23:29] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  16:30  error  "maillistList" is not defined       no-undef
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:13  error  "$subscribersScope" is not defined  no-undef
+  33:36  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+  35:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[10:23:29] Finished 'eslint' after 1.33 s
+[10:23:29] Starting 'linting'...
+[10:23:29] Finished 'linting' after 5.55 μs
+File /pj/domain-as-mail/appm/app/main/templates/maillist_list.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:25:03] Starting 'eslint'...
+[10:25:03] Starting 'jsonlint'...
+[10:25:03] Finished 'jsonlint' after 300 ms
+[10:25:04] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  16:30  error  "maillistList" is not defined       no-undef
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:13  error  "$subscribersScope" is not defined  no-undef
+  33:36  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+  35:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[10:25:04] Finished 'eslint' after 1.18 s
+[10:25:04] Starting 'linting'...
+[10:25:04] Finished 'linting' after 6.13 μs
+File /pj/domain-as-mail/appm/app/main/main.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:25:25] Starting 'eslint'...
+[10:25:25] Starting 'jsonlint'...
+[10:25:26] Finished 'jsonlint' after 192 ms
+[10:25:27] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  16:30  error  "maillistList" is not defined       no-undef
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:13  error  "$subscribersScope" is not defined  no-undef
+  33:36  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+  35:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[10:25:27] Finished 'eslint' after 1.19 s
+[10:25:27] Starting 'linting'...
+[10:25:27] Finished 'linting' after 5.7 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:26:13] Starting 'eslint'...
+[10:26:13] Starting 'jsonlint'...
+[10:26:13] Finished 'jsonlint' after 291 ms
+[10:26:14] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  18:30  error  "maillistList" is not defined       no-undef
+  33:13  error  "$subscribersScope" is not defined  no-undef
+  34:13  error  "$subscribersScope" is not defined  no-undef
+  35:36  error  "$subscribersScope" is not defined  no-undef
+  36:15  error  "$subscribersScope" is not defined  no-undef
+  37:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[10:26:14] Finished 'eslint' after 1.53 s
+[10:26:14] Starting 'linting'...
+[10:26:14] Finished 'linting' after 9.01 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:26:58] Starting 'eslint'...
+[10:26:58] Starting 'jsonlint'...
+[10:26:59] Finished 'jsonlint' after 219 ms
+[10:27:00] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  47:4  error  Parsing error: Unexpected identifier
+
+✖ 2 problems (2 errors, 0 warnings)
+
+[10:27:00] Finished 'eslint' after 1.35 s
+[10:27:00] Starting 'linting'...
+[10:27:00] Finished 'linting' after 6.74 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:27:12] Starting 'eslint'...
+[10:27:12] Starting 'jsonlint'...
+[10:27:12] Finished 'jsonlint' after 180 ms
+[10:27:13] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  16:30  error  "maillistList" is not defined       no-undef
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:13  error  "$subscribersScope" is not defined  no-undef
+  33:36  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+  35:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[10:27:13] Finished 'eslint' after 1.11 s
+[10:27:13] Starting 'linting'...
+[10:27:13] Finished 'linting' after 3.16 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:27:23] Starting 'eslint'...
+[10:27:23] Starting 'jsonlint'...
+[10:27:24] Finished 'jsonlint' after 177 ms
+[10:27:25] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  16:30  error  "maillistList" is not defined       no-undef
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:13  error  "$subscribersScope" is not defined  no-undef
+  33:36  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+  35:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[10:27:25] Finished 'eslint' after 1.22 s
+[10:27:25] Starting 'linting'...
+[10:27:25] Finished 'linting' after 5.38 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:27:33] Starting 'eslint'...
+[10:27:33] Starting 'jsonlint'...
+[10:27:33] Finished 'jsonlint' after 183 ms
+[10:27:34] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  31:13  error  "$subscribersScope" is not defined  no-undef
+  32:13  error  "$subscribersScope" is not defined  no-undef
+  33:36  error  "$subscribersScope" is not defined  no-undef
+  34:15  error  "$subscribersScope" is not defined  no-undef
+  35:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[10:27:34] Finished 'eslint' after 1.06 s
+[10:27:34] Starting 'linting'...
+[10:27:34] Finished 'linting' after 10 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:30:28] Starting 'eslint'...
+[10:30:28] Starting 'jsonlint'...
+[10:30:28] Finished 'jsonlint' after 315 ms
+[10:30:29] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  44:13  error  "$subscribersScope" is not defined  no-undef
+  45:13  error  "$subscribersScope" is not defined  no-undef
+  46:36  error  "$subscribersScope" is not defined  no-undef
+  47:15  error  "$subscribersScope" is not defined  no-undef
+  48:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[10:30:29] Finished 'eslint' after 1.4 s
+[10:30:29] Starting 'linting'...
+[10:30:29] Finished 'linting' after 6.16 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:31:46] Starting 'eslint'...
+[10:31:46] Starting 'jsonlint'...
+[10:31:46] Finished 'jsonlint' after 219 ms
+[10:31:47] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  44:13  error  "$subscribersScope" is not defined  no-undef
+  45:13  error  "$subscribersScope" is not defined  no-undef
+  46:36  error  "$subscribersScope" is not defined  no-undef
+  47:15  error  "$subscribersScope" is not defined  no-undef
+  48:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[10:31:47] Finished 'eslint' after 1.35 s
+[10:31:47] Starting 'linting'...
+[10:31:47] Finished 'linting' after 6.12 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:32:45] Starting 'eslint'...
+[10:32:45] Starting 'jsonlint'...
+[10:32:45] Finished 'jsonlint' after 312 ms
+[10:32:46] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  44:13  error  "$subscribersScope" is not defined  no-undef
+  45:13  error  "$subscribersScope" is not defined  no-undef
+  46:36  error  "$subscribersScope" is not defined  no-undef
+  47:15  error  "$subscribersScope" is not defined  no-undef
+  48:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[10:32:46] Finished 'eslint' after 1.33 s
+[10:32:46] Starting 'linting'...
+[10:32:46] Finished 'linting' after 5.32 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:33:16] Starting 'eslint'...
+[10:33:16] Starting 'jsonlint'...
+[10:33:16] Finished 'jsonlint' after 213 ms
+[10:33:18] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  44:13  error  "$subscribersScope" is not defined  no-undef
+  45:13  error  "$subscribersScope" is not defined  no-undef
+  46:36  error  "$subscribersScope" is not defined  no-undef
+  47:15  error  "$subscribersScope" is not defined  no-undef
+  48:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[10:33:18] Finished 'eslint' after 1.57 s
+[10:33:18] Starting 'linting'...
+[10:33:18] Finished 'linting' after 6.96 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:33:32] Starting 'eslint'...
+[10:33:32] Starting 'jsonlint'...
+[10:33:33] Finished 'jsonlint' after 186 ms
+[10:33:33] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  44:13  error  "$subscribersScope" is not defined  no-undef
+  45:13  error  "$subscribersScope" is not defined  no-undef
+  46:36  error  "$subscribersScope" is not defined  no-undef
+  47:15  error  "$subscribersScope" is not defined  no-undef
+  48:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[10:33:33] Finished 'eslint' after 1.12 s
+[10:33:33] Starting 'linting'...
+[10:33:33] Finished 'linting' after 5.48 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:35:07] Starting 'eslint'...
+[10:35:07] Starting 'jsonlint'...
+[10:35:08] Finished 'jsonlint' after 314 ms
+[10:35:09] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  44:13  error  "$subscribersScope" is not defined  no-undef
+  45:13  error  "$subscribersScope" is not defined  no-undef
+  46:36  error  "$subscribersScope" is not defined  no-undef
+  47:15  error  "$subscribersScope" is not defined  no-undef
+  48:15  error  "$subscribersScope" is not defined  no-undef
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[10:35:09] Finished 'eslint' after 1.42 s
+[10:35:09] Starting 'linting'...
+[10:35:09] Finished 'linting' after 5.74 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:36:31] Starting 'eslint'...
+[10:36:31] Starting 'jsonlint'...
+[10:36:32] Finished 'jsonlint' after 289 ms
+[10:36:33] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  46:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 3 problems (3 errors, 0 warnings)
+
+[10:36:33] Finished 'eslint' after 1.32 s
+[10:36:33] Starting 'linting'...
+[10:36:33] Finished 'linting' after 3.86 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:37:16] Starting 'eslint'...
+[10:37:16] Starting 'jsonlint'...
+[10:37:16] Finished 'jsonlint' after 214 ms
+[10:37:18] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  37:17  error  "maillistList" is not defined       no-undef
+  38:19  error  "list" is not defined               no-undef
+  48:13  error  "list" is not defined               no-undef
+  69:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 6 problems (6 errors, 0 warnings)
+
+[10:37:18] Finished 'eslint' after 1.41 s
+[10:37:18] Starting 'linting'...
+[10:37:18] Finished 'linting' after 9.26 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:38:04] Starting 'eslint'...
+[10:38:04] Starting 'jsonlint'...
+[10:38:04] Finished 'jsonlint' after 302 ms
+[10:38:05] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  37:17  error  "maillistList" is not defined       no-undef
+  38:19  error  "list" is not defined               no-undef
+  48:13  error  "list" is not defined               no-undef
+  69:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 6 problems (6 errors, 0 warnings)
+
+[10:38:05] Finished 'eslint' after 1.48 s
+[10:38:05] Starting 'linting'...
+[10:38:05] Finished 'linting' after 5.97 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:38:34] Starting 'eslint'...
+[10:38:34] Starting 'jsonlint'...
+[10:38:34] Finished 'jsonlint' after 216 ms
+[10:38:35] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  48:13  error  "list" is not defined               no-undef
+  69:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:38:35] Finished 'eslint' after 1.35 s
+[10:38:35] Starting 'linting'...
+[10:38:35] Finished 'linting' after 6.63 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:39:16] Starting 'eslint'...
+[10:39:16] Starting 'jsonlint'...
+[10:39:16] Finished 'jsonlint' after 216 ms
+[10:39:17] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  48:13  error  "list" is not defined               no-undef
+  69:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:39:17] Finished 'eslint' after 932 ms
+[10:39:17] Starting 'linting'...
+[10:39:17] Finished 'linting' after 3.83 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:41:41] Starting 'eslint'...
+[10:41:41] Starting 'jsonlint'...
+[10:41:42] Finished 'jsonlint' after 306 ms
+[10:41:43] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  48:13  error  "list" is not defined               no-undef
+  69:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:41:43] Finished 'eslint' after 1.58 s
+[10:41:43] Starting 'linting'...
+[10:41:43] Finished 'linting' after 6.41 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:41:54] Starting 'eslint'...
+[10:41:54] Starting 'jsonlint'...
+[10:41:54] Finished 'jsonlint' after 180 ms
+[10:41:55] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  48:13  error  "list" is not defined               no-undef
+  69:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:41:55] Finished 'eslint' after 1.2 s
+[10:41:55] Starting 'linting'...
+[10:41:55] Finished 'linting' after 5.14 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:44:00] Starting 'eslint'...
+[10:44:00] Starting 'jsonlint'...
+[10:44:00] Finished 'jsonlint' after 231 ms
+[10:44:02] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  48:13  error  "list" is not defined               no-undef
+  69:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:44:02] Finished 'eslint' after 1.62 s
+[10:44:02] Starting 'linting'...
+[10:44:02] Finished 'linting' after 7.17 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:44:11] Starting 'eslint'...
+[10:44:11] Starting 'jsonlint'...
+Finished 'jsonlint' after 176 ms
+[10:44:11] [10:44:13] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  48:13  error  "list" is not defined               no-undef
+  69:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:44:13] Finished 'eslint' after 1.48 s
+[10:44:13] Starting 'linting'...
+[10:44:13] Finished 'linting' after 5.5 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:44:22] Starting 'eslint'...
+[10:44:22] Starting 'jsonlint'...
+[10:44:23] Finished 'jsonlint' after 190 ms
+[10:44:24] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  48:13  error  "list" is not defined               no-undef
+  69:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:44:24] Finished 'eslint' after 1.37 s
+[10:44:24] Starting 'linting'...
+[10:44:24] Finished 'linting' after 6.75 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:45:14] Starting 'eslint'...
+[10:45:14] Starting 'jsonlint'...
+Finished 'jsonlint' after 284 ms
+[10:45:15] [10:45:16] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  15:5   error  "$subscribersScope" is not defined  no-undef
+  53:13  error  "list" is not defined               no-undef
+  74:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 5 problems (5 errors, 0 warnings)
+
+[10:45:16] Finished 'eslint' after 1.5 s
+[10:45:16] Starting 'linting'...
+[10:45:16] Finished 'linting' after 5.66 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:45:25] Starting 'eslint'...
+[10:45:25] Starting 'jsonlint'...
+[10:45:25] Finished 'jsonlint' after 177 ms
+[10:45:26] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  53:13  error  "list" is not defined               no-undef
+  74:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:45:26] Finished 'eslint' after 1.15 s
+[10:45:26] Starting 'linting'...
+[10:45:26] Finished 'linting' after 4.23 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:45:45] Starting 'eslint'...
+[10:45:45] Starting 'jsonlint'...
+[10:45:45] Finished 'jsonlint' after 199 ms
+[10:45:46] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  53:13  error  "list" is not defined               no-undef
+  74:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:45:46] Finished 'eslint' after 1.21 s
+[10:45:46] Starting 'linting'...
+[10:45:46] Finished 'linting' after 5.46 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:48:08] Starting 'eslint'...
+[10:48:08] Starting 'jsonlint'...
+[10:48:08] Finished 'jsonlint' after 327 ms
+[10:48:09] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  53:13  error  "list" is not defined               no-undef
+  74:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:48:09] Finished 'eslint' after 1.78 s
+[10:48:09] Starting 'linting'...
+[10:48:09] Finished 'linting' after 5.8 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:48:21] Starting 'eslint'...
+[10:48:21] Starting 'jsonlint'...
+[10:48:21] Finished 'jsonlint' after 173 ms
+[10:48:22] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  53:13  error  "list" is not defined               no-undef
+  74:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:48:22] Finished 'eslint' after 1.21 s
+[10:48:22] Starting 'linting'...
+[10:48:22] Finished 'linting' after 4.72 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:48:55] Starting 'eslint'...
+[10:48:55] Starting 'jsonlint'...
+[10:48:55] Finished 'jsonlint' after 324 ms
+[10:48:57] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  53:13  error  "list" is not defined               no-undef
+  74:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:48:57] Finished 'eslint' after 1.66 s
+[10:48:57] Starting 'linting'...
+[10:48:57] Finished 'linting' after 7.61 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:49:36] Starting 'eslint'...
+[10:49:36] Starting 'jsonlint'...
+[10:49:37] Finished 'jsonlint' after 188 ms
+[10:49:38] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  21:11  error  "$subscribersScope" is not defined  no-undef
+  22:23  error  "$subscribersScope" is not defined  no-undef
+  62:13  error  "list" is not defined               no-undef
+  83:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 6 problems (6 errors, 0 warnings)
+
+[10:49:38] Finished 'eslint' after 1.39 s
+[10:49:38] Starting 'linting'...
+[10:49:38] Finished 'linting' after 6.28 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:50:16] Starting 'eslint'...
+[10:50:16] Starting 'jsonlint'...
+[10:50:16] Finished 'jsonlint' after 189 ms
+[10:50:17] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  22:11  error  "$subscribersScope" is not defined  no-undef
+  23:16  error  "$subscribersScope" is not defined  no-undef
+  31:11  error  "$subscribersScope" is not defined  no-undef
+  32:23  error  "$subscribersScope" is not defined  no-undef
+  72:13  error  "list" is not defined               no-undef
+  93:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[10:50:17] Finished 'eslint' after 1.44 s
+[10:50:17] Starting 'linting'...
+[10:50:17] Finished 'linting' after 3.81 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:50:30] Starting 'eslint'...
+Starting 'jsonlint'...
+[10:50:30] [10:50:30] Finished 'jsonlint' after 205 ms
+[10:50:31] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  22:11  error  "$subscribersScope" is not defined  no-undef
+  23:16  error  "$subscribersScope" is not defined  no-undef
+  31:11  error  "$subscribersScope" is not defined  no-undef
+  32:23  error  "$subscribersScope" is not defined  no-undef
+  72:13  error  "list" is not defined               no-undef
+  93:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[10:50:31] Finished 'eslint' after 1.37 s
+[10:50:31] Starting 'linting'...
+[10:50:31] Finished 'linting' after 5.05 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:51:22] Starting 'eslint'...
+[10:51:22] Starting 'jsonlint'...
+[10:51:22] Finished 'jsonlint' after 312 ms
+[10:51:24] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  32:23  error  "$subscribers" is not defined       no-undef
+  72:13  error  "list" is not defined               no-undef
+  93:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 5 problems (5 errors, 0 warnings)
+
+[10:51:24] Finished 'eslint' after 1.4 s
+[10:51:24] Starting 'linting'...
+[10:51:24] Finished 'linting' after 3.85 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:52:20] Starting 'eslint'...
+[10:52:20] Starting 'jsonlint'...
+[10:52:20] Finished 'jsonlint' after 283 ms
+[10:52:21] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  72:13  error  "list" is not defined               no-undef
+  93:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:52:21] Finished 'eslint' after 1.27 s
+[10:52:21] Starting 'linting'...
+[10:52:21] Finished 'linting' after 4.47 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:55:07] Starting 'eslint'...
+[10:55:07] Starting 'jsonlint'...
+[10:55:07] Finished 'jsonlint' after 183 ms
+[10:55:07] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  71:14  error  Trailing spaces not allowed         no-trailing-spaces
+  92:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:55:07] Finished 'eslint' after 887 ms
+[10:55:07] Starting 'linting'...
+[10:55:07] Finished 'linting' after 5.88 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:55:13] Starting 'eslint'...
+[10:55:13] Starting 'jsonlint'...
+[10:55:14] Finished 'jsonlint' after 156 ms
+[10:55:14] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  90:60  error  Trailing spaces not allowed         no-trailing-spaces
+  91:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:55:14] Finished 'eslint' after 756 ms
+[10:55:14] Starting 'linting'...
+[10:55:14] Finished 'linting' after 15 μs
+File /pj/domain-as-mail/appm/app/main/templates/subscribers.html was changed, running tasks...
+[BS] Reloading Browsers...
+[10:56:05] Starting 'eslint'...
+Starting 'jsonlint'...
+[10:56:05] [10:56:05] Finished 'jsonlint' after 225 ms
+[10:56:06] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  90:60  error  Trailing spaces not allowed         no-trailing-spaces
+  91:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[10:56:06] Finished 'eslint' after 1.37 s
+[10:56:06] Starting 'linting'...
+[10:56:06] Finished 'linting' after 7.09 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:56:42] Starting 'eslint'...
+[10:56:42] Starting 'jsonlint'...
+[10:56:42] Finished 'jsonlint' after 208 ms
+[10:56:43] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  91:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 3 problems (3 errors, 0 warnings)
+
+[10:56:43] Finished 'eslint' after 1.53 s
+[10:56:43] Starting 'linting'...
+[10:56:43] Finished 'linting' after 5.82 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:56:44] Starting 'eslint'...
+[10:56:44] Starting 'jsonlint'...
+[10:56:44] Finished 'jsonlint' after 175 ms
+[10:56:45] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  91:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 3 problems (3 errors, 0 warnings)
+
+[10:56:45] Finished 'eslint' after 1.11 s
+[10:56:45] Starting 'linting'...
+[10:56:45] Finished 'linting' after 5.99 μs
+File /pj/domain-as-mail/appm/app/main/controllers/subscribersAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[10:56:49] Starting 'eslint'...
+[10:56:49] Starting 'jsonlint'...
+[10:56:49] Finished 'jsonlint' after 180 ms
+[10:56:50] 
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+   6:9   error  "log" is defined but never used     no-unused-vars
+  91:36  error  "$subscribersScope" is not defined  no-undef
+
+✖ 3 problems (3 errors, 0 warnings)
+
+[10:56:50] Finished 'eslint' after 1.15 s
+[10:56:50] Starting 'linting'...
+[10:56:50] Finished 'linting' after 8.5 μs
