@@ -1,15 +1,15 @@
 <ion-view view-title="Рассылки">
   <ion-nav-buttons side="right">
-    <button class="button button-icon icon ion-ios-plus-empty" ng-click="maillistList.addMailList()"></button>
+    <button class="button button-icon icon ion-ios-plus-empty" ui-sref="main.maillistListAdd({domain: maillistList.domain})"></button>
   </ion-nav-buttons>
   <ion-content class="ionContent">
     <ion-refresher
       pulling-text="Pull to refresh..."
       on-refresh="maillistList.doRefresh()">
     </ion-refresher>
-    <div class="secondBG">
+    <div class="secondBG" ng-if="maillistList.mailLists.length === 0">
       <div style="display:flex; flex-direction: column; justify-content:flex-end;height: inherit;">
-
+        {{maillistList.mailLists.Count}}
         <div style="display:flex;align-self:center;font-family:Roboto-Regular;font-size:0.9375rem;color:rgba(0,0,0,0.87);text-align:center;
         margin-bottom:25vh">
           Пока не добавлено ни одной рассылки
@@ -20,7 +20,7 @@
             border-radius:5px;
             width:13.93rem;
             height:2.75rem;
-            margin-bottom:15vh" ng-click="maillistList.addMailList()">
+            margin-bottom:15vh" ui-sref="main.maillistListAdd({domain: maillistList.domain})">
           <p class="mailboxSaveBtnText">Добавить рассылку</p>
         </div>
       </div>

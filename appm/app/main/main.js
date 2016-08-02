@@ -84,6 +84,15 @@ angular.module('main', [])
         }
       }
     })
+    .state('main.maillistListAdd', {
+      url: '/domain/:domain/maillist/add',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/maillist_add.html',
+          controller: 'maillistAddCtrl as ctrl'
+        }
+      }
+    })
     .state('main.deputies', {
       url: '/domain/:domain/deputies',
       views: {
