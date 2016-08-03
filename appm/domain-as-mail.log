@@ -408,3 +408,2569 @@ app/main/controllers/subscribersAdd-ctrl.js
 [15:40:45] Finished 'eslint' after 971 ms
 [15:40:45] Starting 'linting'...
 [15:40:45] Finished 'linting' after 5.99 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[15:50:22] Starting 'eslint'...
+[15:50:22] Starting 'jsonlint'...
+[15:50:23] Finished 'jsonlint' after 277 ms
+[15:50:23] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[15:50:23] Finished 'eslint' after 1.08 s
+[15:50:23] Starting 'linting'...
+[15:50:23] Finished 'linting' after 4.09 μs
+File /pj/domain-as-mail/appm/app/main/main.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:51:28] Starting 'eslint'...
+[15:51:28] Starting 'jsonlint'...
+[15:51:28] Finished 'jsonlint' after 120 ms
+[15:51:29] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[15:51:29] Finished 'eslint' after 857 ms
+[15:51:29] Starting 'linting'...
+[15:51:29] Finished 'linting' after 6.07 μs
+File /pj/domain-as-mail/appm/app/main/main.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:51:48] Starting 'eslint'...
+[15:51:48] Starting 'jsonlint'...
+[15:51:48] Finished 'jsonlint' after 117 ms
+[15:51:49] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[15:51:49] Finished 'eslint' after 1.02 s
+[15:51:49] Starting 'linting'...
+[15:51:49] Finished 'linting' after 5.17 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[15:52:30] Starting 'eslint'...
+[15:52:30] Starting 'jsonlint'...
+[15:52:30] Finished 'jsonlint' after 287 ms
+[15:52:31] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[15:52:31] Finished 'eslint' after 1.22 s
+[15:52:31] Starting 'linting'...
+[15:52:31] Finished 'linting' after 5.65 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was added, running tasks...
+[15:52:56] Starting 'clean'...
+[15:52:56] Starting 'wiredep'...
+[15:52:56] Starting 'bower-fonts'...
+[15:52:56] Starting 'environment'...
+[15:52:56] gulp-inject Nothing to inject into main/constants/config-const.js.
+[15:52:56] Finished 'wiredep' after 101 ms
+[15:52:56] Finished 'environment' after 66 ms
+[15:52:56] Starting 'build-vars'...
+[15:52:56] Finished 'clean' after 111 ms
+[15:52:56] Starting 'styles'...
+[15:52:56] gulp-inject 1 files into main/constants/config-const.js.
+[15:52:57] Starting 'environment'...
+File /pj/domain-as-mail/appm/app/main/constants/config-const.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:52:57] Starting 'eslint'...
+[15:52:57] Starting 'jsonlint'...
+File /pj/domain-as-mail/appm/app/index.html was changed, running tasks...
+[BS] Reloading Browsers...
+[15:52:57] Finished 'build-vars' after 1.04 s
+[15:52:57] gulp-inject Nothing to inject into main/constants/config-const.js.
+File /pj/domain-as-mail/appm/.tmp/main/styles/main.css was changed, running tasks...
+[BS] Reloading Browsers...
+[15:52:57] Finished 'jsonlint' after 230 ms
+[15:52:57] Finished 'environment' after 267 ms
+File /pj/domain-as-mail/appm/.tmp/signup/styles/signup.css was changed, running tasks...
+[BS] Reloading Browsers...
+[15:52:57] Starting 'jsonlint'...
+[15:52:57] Finished 'styles' after 1.36 s
+[15:52:57] Finished 'jsonlint' after 185 ms
+[15:52:58] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[15:52:58] Finished 'eslint' after 1.22 s
+[15:52:58] Starting 'linting'...
+[15:52:58] Finished 'linting' after 11 μs
+[15:52:58] Finished 'bower-fonts' after 2.36 s
+[15:52:58] Starting 'inject-all'...
+[15:52:58] gulp-inject 19 files into index.html.
+[15:52:58] gulp-inject 2 files into index.html.
+[15:52:58] Finished 'inject-all' after 113 ms
+File /pj/domain-as-mail/appm/app/index.html was changed, running tasks...
+[BS] Reloading Browsers...
+[15:52:58] Starting 'eslint'...
+[15:52:58] Starting 'jsonlint'...
+[15:52:59] Finished 'jsonlint' after 182 ms
+[15:53:00] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[15:53:00] Finished 'eslint' after 1.16 s
+[15:53:00] Starting 'linting'...
+[15:53:00] Finished 'linting' after 4.91 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:53:39] Starting 'eslint'...
+[15:53:39] Starting 'jsonlint'...
+[15:53:39] Finished 'jsonlint' after 278 ms
+[15:53:40] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 4 problems (4 errors, 0 warnings)
+
+[15:53:40] Finished 'eslint' after 1.2 s
+[15:53:40] Starting 'linting'...
+[15:53:40] Finished 'linting' after 3.74 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:54:22] Starting 'eslint'...
+[15:54:22] Starting 'jsonlint'...
+Finished 'jsonlint' after 266 ms
+[15:54:22] [15:54:23] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+  8:7  error  "$ionicHistory" is not defined  no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 5 problems (5 errors, 0 warnings)
+
+Finished 'eslint' after 1.24 s
+[15:54:23] [15:54:23] Starting 'linting'...
+[15:54:23] Finished 'linting' after 4.03 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:54:26] Starting 'eslint'...
+[15:54:26] Starting 'jsonlint'...
+[15:54:26] Finished 'jsonlint' after 176 ms
+[15:54:27] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+  8:7  error  "$ionicHistory" is not defined  no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 5 problems (5 errors, 0 warnings)
+
+[15:54:27] Finished 'eslint' after 1.09 s
+[15:54:27] Starting 'linting'...
+[15:54:27] Finished 'linting' after 5.43 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[15:54:59] Starting 'eslint'...
+[15:54:59] Starting 'jsonlint'...
+[15:54:59] Finished 'jsonlint' after 182 ms
+[15:55:00] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+  8:7  error  "$ionicHistory" is not defined  no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 5 problems (5 errors, 0 warnings)
+
+[15:55:00] Finished 'eslint' after 1.26 s
+[15:55:00] Starting 'linting'...
+[15:55:00] Finished 'linting' after 8.33 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:55:58] Starting 'eslint'...
+[15:55:58] Starting 'jsonlint'...
+[15:55:58] Finished 'jsonlint' after 304 ms
+[15:55:59] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used  no-unused-vars
+  11:7  error  "$ionicHistory" is not defined   no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 6 problems (6 errors, 0 warnings)
+
+[15:55:59] Finished 'eslint' after 1.3 s
+[15:55:59] Starting 'linting'...
+[15:55:59] Finished 'linting' after 5.33 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:56:17] Starting 'eslint'...
+[15:56:17] Starting 'jsonlint'...
+[15:56:17] Finished 'jsonlint' after 205 ms
+[15:56:18] [15:56:18] Finished 'eslint' after 1.12 s
+[15:56:18] Starting 'linting'...
+[15:56:18] Finished 'linting' after 4.87 μs
+
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  11:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:56:45] Starting 'eslint'...
+[15:56:45] Starting 'jsonlint'...
+[15:56:45] Finished 'jsonlint' after 206 ms
+[15:56:46] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  13:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[15:56:46] Finished 'eslint' after 1.18 s
+[15:56:46] Finished 'linting' after 6.34 μs
+[15:56:46] Starting 'linting'...
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:56:59] Starting 'eslint'...
+[15:56:59] Starting 'jsonlint'...
+[15:56:59] Finished 'jsonlint' after 163 ms
+[15:57:00] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  12:5  error  "addrecord" is not defined         no-undef
+  13:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[15:57:00] Finished 'eslint' after 996 ms
+[15:57:00] Starting 'linting'...
+[15:57:00] Finished 'linting' after 3.04 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:57:05] Starting 'eslint'...
+[15:57:05] Starting 'jsonlint'...
+[15:57:05] Finished 'jsonlint' after 164 ms
+[15:57:06] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  13:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[15:57:06] Finished 'eslint' after 1.08 s
+[15:57:06] Starting 'linting'...
+[15:57:06] Finished 'linting' after 3.4 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:57:31] Starting 'eslint'...
+[15:57:31] Starting 'jsonlint'...
+[15:57:31] Finished 'jsonlint' after 179 ms
+
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  13:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[15:57:32] [15:57:32] Finished 'eslint' after 1.16 s
+[15:57:32] Starting 'linting'...
+[15:57:32] Finished 'linting' after 5.18 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:57:50] Starting 'eslint'...
+[15:57:50] Starting 'jsonlint'...
+[15:57:50] Finished 'jsonlint' after 173 ms
+[15:57:51] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  13:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[15:57:51] Finished 'eslint' after 1.27 s
+[15:57:51] Starting 'linting'...
+[15:57:51] Finished 'linting' after 6.05 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:57:52] Starting 'eslint'...
+[15:57:52] Starting 'jsonlint'...
+[15:57:52] Finished 'jsonlint' after 158 ms
+[15:57:53] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  13:7  error  "$ionicHistory" is not defined     no-undef
+  36:1  error  Trailing spaces not allowed        no-trailing-spaces
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[15:57:53] Finished 'eslint' after 1.09 s
+[15:57:53] Starting 'linting'...
+[15:57:53] Finished 'linting' after 5.7 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:59:05] Starting 'eslint'...
+[15:59:05] Starting 'jsonlint'...
+[15:59:06] Finished 'jsonlint' after 279 ms
+[15:59:07] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  13:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[15:59:07] Finished 'eslint' after 1.25 s
+[15:59:07] Starting 'linting'...
+[15:59:07] Finished 'linting' after 6.44 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[15:59:11] Starting 'eslint'...
+[15:59:11] Starting 'jsonlint'...
+Finished 'jsonlint' after 197 ms
+[15:59:11] [15:59:12] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  13:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[15:59:12] Finished 'eslint' after 1.15 s
+[15:59:12] Starting 'linting'...
+[15:59:12] Finished 'linting' after 5.27 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:02:13] Starting 'eslint'...
+[16:02:13] Starting 'jsonlint'...
+[16:02:13] Finished 'jsonlint' after 169 ms
+[16:02:14] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  13:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:02:14] Finished 'eslint' after 1.04 s
+[16:02:14] Starting 'linting'...
+[16:02:14] Finished 'linting' after 3.85 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:03:05] Starting 'eslint'...
+[16:03:05] Starting 'jsonlint'...
+[16:03:05] Finished 'jsonlint' after 309 ms
+[16:03:06] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  13:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:03:06] Finished 'eslint' after 1.2 s
+[16:03:06] Starting 'linting'...
+[16:03:06] Finished 'linting' after 5.35 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:04:05] Starting 'eslint'...
+[16:04:05] Starting 'jsonlint'...
+[16:04:05] Finished 'jsonlint' after 241 ms
+[16:04:06] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  13:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:04:06] Finished 'eslint' after 1.15 s
+[16:04:06] Starting 'linting'...
+[16:04:06] Finished 'linting' after 4.7 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:04:23] Starting 'eslint'...
+[16:04:23] Starting 'jsonlint'...
+Finished 'jsonlint' after 182 ms
+[16:04:23] [16:04:24] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  13:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:04:24] Finished 'eslint' after 1.08 s
+[16:04:24] Starting 'linting'...
+[16:04:24] Finished 'linting' after 4.41 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[16:05:05] Starting 'eslint'...
+[16:05:05] Starting 'jsonlint'...
+[16:05:05] Finished 'jsonlint' after 181 ms
+[16:05:06] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:05:06] Finished 'eslint' after 1.27 s
+[16:05:06] Starting 'linting'...
+[16:05:06] Finished 'linting' after 4.03 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[16:05:07] Starting 'eslint'...
+[16:05:07] Starting 'jsonlint'...
+[16:05:07] Finished 'jsonlint' after 163 ms
+[16:05:08] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:05:08] Finished 'eslint' after 1.35 s
+[16:05:08] Starting 'linting'...
+[16:05:08] Finished 'linting' after 5.76 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:06:03] Starting 'eslint'...
+[16:06:03] Starting 'jsonlint'...
+[16:06:03] Finished 'jsonlint' after 307 ms
+[16:06:04] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:06:04] Finished 'eslint' after 1.26 s
+[16:06:04] Starting 'linting'...
+[16:06:04] Finished 'linting' after 4.04 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:06:20] Starting 'eslint'...
+[16:06:20] Starting 'jsonlint'...
+[16:06:20] Finished 'jsonlint' after 164 ms
+[16:06:21] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:06:21] Finished 'eslint' after 1.11 s
+[16:06:21] Starting 'linting'...
+[16:06:21] Finished 'linting' after 5.66 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:06:44] Starting 'eslint'...
+[16:06:44] Starting 'jsonlint'...
+[16:06:44] Finished 'jsonlint' after 253 ms
+[16:06:45] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:06:45] Finished 'eslint' after 1.3 s
+[16:06:45] Starting 'linting'...
+[16:06:45] Finished 'linting' after 12 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:06:57] Starting 'eslint'...
+[16:06:57] Starting 'jsonlint'...
+[16:06:57] Finished 'jsonlint' after 174 ms
+[16:06:58] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:06:58] Finished 'eslint' after 1.17 s
+[16:06:58] Starting 'linting'...
+[16:06:58] Finished 'linting' after 4.66 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:07:17] Starting 'eslint'...
+[16:07:17] Starting 'jsonlint'...
+[16:07:17] Finished 'jsonlint' after 212 ms
+[16:07:18] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:07:18] Finished 'eslint' after 1.24 s
+[16:07:18] Starting 'linting'...
+[16:07:18] Finished 'linting' after 6.66 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+Starting 'eslint'...
+[16:07:36] [16:07:36] Starting 'jsonlint'...
+[16:07:36] Finished 'jsonlint' after 188 ms
+[16:07:37] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:07:37] Finished 'eslint' after 1.08 s
+[16:07:37] Starting 'linting'...
+[16:07:37] Finished 'linting' after 3.62 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:07:43] Starting 'eslint'...
+[16:07:43] Starting 'jsonlint'...
+[16:07:44] Finished 'jsonlint' after 173 ms
+[16:07:44] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:07:44] Finished 'eslint' after 1.1 s
+[16:07:44] Starting 'linting'...
+[16:07:44] Finished 'linting' after 6.15 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:08:03] Starting 'eslint'...
+[16:08:03] Starting 'jsonlint'...
+[16:08:04] Finished 'jsonlint' after 171 ms
+[16:08:05] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:08:05] Finished 'eslint' after 1.07 s
+[16:08:05] Starting 'linting'...
+[16:08:05] Finished 'linting' after 5.11 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:08:36] Starting 'eslint'...
+[16:08:36] Starting 'jsonlint'...
+[16:08:36] Finished 'jsonlint' after 288 ms
+[16:08:37] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:08:37] Finished 'eslint' after 1.35 s
+[16:08:37] Starting 'linting'...
+[16:08:37] Finished 'linting' after 3.61 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:08:43] Starting 'eslint'...
+[16:08:43] Starting 'jsonlint'...
+[16:08:43] Finished 'jsonlint' after 176 ms
+[16:08:44] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:08:44] Finished 'eslint' after 1.11 s
+[16:08:44] Starting 'linting'...
+[16:08:44] Finished 'linting' after 3.18 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:09:18] Starting 'eslint'...
+[16:09:18] Starting 'jsonlint'...
+[16:09:18] Finished 'jsonlint' after 217 ms
+[16:09:19] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:09:19] Finished 'eslint' after 1.33 s
+[16:09:19] Starting 'linting'...
+[16:09:19] Finished 'linting' after 6.03 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnslist-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[16:09:43] Starting 'eslint'...
+[16:09:43] Starting 'jsonlint'...
+[16:09:43] Finished 'jsonlint' after 159 ms
+[16:09:44] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:09:44] Finished 'eslint' after 1.25 s
+[16:09:44] Starting 'linting'...
+[16:09:44] Finished 'linting' after 6.45 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:10:01] Starting 'eslint'...
+[16:10:01] Starting 'jsonlint'...
+[16:10:01] Finished 'jsonlint' after 160 ms
+[16:10:02] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:10:02] Finished 'eslint' after 1.03 s
+[16:10:02] Starting 'linting'...
+[16:10:02] Finished 'linting' after 3.45 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:10:40] Starting 'eslint'...
+[16:10:40] Starting 'jsonlint'...
+[16:10:40] Finished 'jsonlint' after 174 ms
+[16:10:41] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:10:41] Finished 'eslint' after 1.13 s
+[16:10:41] Starting 'linting'...
+[16:10:41] Finished 'linting' after 4.13 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:12:17] Starting 'eslint'...
+[16:12:17] Starting 'jsonlint'...
+[16:12:17] Finished 'jsonlint' after 197 ms
+[16:12:18] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:12:18] Finished 'eslint' after 1.31 s
+[16:12:18] Starting 'linting'...
+[16:12:18] Finished 'linting' after 4.27 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:12:23] Starting 'eslint'...
+[16:12:23] Starting 'jsonlint'...
+[16:12:24] Finished 'jsonlint' after 173 ms
+[16:12:25] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:12:25] Finished 'eslint' after 1.33 s
+[16:12:25] Starting 'linting'...
+[16:12:25] Finished 'linting' after 7.3 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:12:38] Starting 'eslint'...
+[16:12:38] Starting 'jsonlint'...
+[16:12:38] Finished 'jsonlint' after 160 ms
+[16:12:39] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:12:39] Finished 'eslint' after 1.23 s
+[16:12:39] Starting 'linting'...
+[16:12:39] Finished 'linting' after 4.45 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:12:58] Starting 'eslint'...
+[16:12:58] Starting 'jsonlint'...
+[16:12:59] Finished 'jsonlint' after 229 ms
+
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:13:00] [16:13:00] Finished 'eslint' after 1.33 s
+[16:13:00] Starting 'linting'...
+[16:13:00] Finished 'linting' after 6.52 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:13:17] Starting 'eslint'...
+[16:13:17] Starting 'jsonlint'...
+[16:13:17] Finished 'jsonlint' after 149 ms
+[16:13:18] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:13:18] Finished 'eslint' after 1.06 s
+[16:13:18] Starting 'linting'...
+[16:13:18] Finished 'linting' after 4.19 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:13:30] Starting 'eslint'...
+[16:13:30] Starting 'jsonlint'...
+[16:13:30] Finished 'jsonlint' after 176 ms
+[16:13:31] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:13:31] Finished 'eslint' after 1.16 s
+[16:13:31] Starting 'linting'...
+[16:13:31] Finished 'linting' after 5.81 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:13:58] Starting 'eslint'...
+[16:13:58] Starting 'jsonlint'...
+[16:13:58] Finished 'jsonlint' after 323 ms
+[16:13:59] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:13:59] Finished 'eslint' after 1.27 s
+[16:13:59] Starting 'linting'...
+[16:13:59] Finished 'linting' after 4.28 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:14:08] Starting 'eslint'...
+[16:14:08] Starting 'jsonlint'...
+[16:14:08] Finished 'jsonlint' after 168 ms
+[16:14:09] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:14:09] Finished 'eslint' after 1.11 s
+[16:14:09] Starting 'linting'...
+[16:14:09] Finished 'linting' after 4.15 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:17:24] Starting 'eslint'...
+[16:17:24] Starting 'jsonlint'...
+[16:17:24] Finished 'jsonlint' after 191 ms
+[16:17:25] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:17:25] Finished 'eslint' after 1.01 s
+[16:17:25] Starting 'linting'...
+[16:17:25] Finished 'linting' after 6.15 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnslist-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[16:17:46] Starting 'eslint'...
+[16:17:46] Starting 'jsonlint'...
+[16:17:46] Finished 'jsonlint' after 195 ms
+[16:17:47] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/dnslist-ctrl.js
+  3:128  error  "JSON" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[16:17:47] Finished 'eslint' after 1.21 s
+[16:17:47] Starting 'linting'...
+[16:17:47] Finished 'linting' after 7.78 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:18:02] Starting 'eslint'...
+[16:18:02] Starting 'jsonlint'...
+[16:18:02] Finished 'jsonlint' after 179 ms
+[16:18:03] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/dnslist-ctrl.js
+  3:128  error  "JSON" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[16:18:03] Finished 'eslint' after 1.14 s
+[16:18:03] Starting 'linting'...
+[16:18:03] Finished 'linting' after 4.98 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnslist-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[16:23:25] Starting 'eslint'...
+[16:23:25] Starting 'jsonlint'...
+Finished 'jsonlint' after 270 ms
+[16:23:25] [16:23:26] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:23:26] Finished 'eslint' after 1.25 s
+[16:23:26] Starting 'linting'...
+[16:23:26] Finished 'linting' after 6.18 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnslist-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[16:23:31] Starting 'eslint'...
+[16:23:31] Starting 'jsonlint'...
+[16:23:31] Finished 'jsonlint' after 167 ms
+[16:23:32] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:23:32] Finished 'eslint' after 1.13 s
+[16:23:32] Starting 'linting'...
+[16:23:32] Finished 'linting' after 4.82 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:24:18] Starting 'eslint'...
+[16:24:18] Starting 'jsonlint'...
+[16:24:19] Finished 'jsonlint' after 230 ms
+[16:24:20] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:24:20] Finished 'eslint' after 1.51 s
+[16:24:20] Starting 'linting'...
+[16:24:20] Finished 'linting' after 6.76 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:25:39] Starting 'eslint'...
+[16:25:39] Starting 'jsonlint'...
+[16:25:39] Finished 'jsonlint' after 294 ms
+[16:25:40] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:25:40] Finished 'eslint' after 1.31 s
+[16:25:40] Starting 'linting'...
+[16:25:40] Finished 'linting' after 6.41 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:25:48] Starting 'eslint'...
+[16:25:48] Starting 'jsonlint'...
+[16:25:48] Finished 'jsonlint' after 219 ms
+[16:25:49] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:25:49] Finished 'eslint' after 1.11 s
+[16:25:49] Starting 'linting'...
+Finished 'linting' after 6.02 μs
+[16:25:49] File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:26:22] Starting 'eslint'...
+[16:26:22] Starting 'jsonlint'...
+[16:26:22] Finished 'jsonlint' after 280 ms
+[16:26:23] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:26:23] Finished 'eslint' after 1.3 s
+[16:26:23] Starting 'linting'...
+[16:26:23] Finished 'linting' after 6.03 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:26:37] Starting 'eslint'...
+[16:26:37] Starting 'jsonlint'...
+[16:26:37] Finished 'jsonlint' after 179 ms
+[16:26:38] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:26:38] Finished 'eslint' after 1.12 s
+[16:26:38] Starting 'linting'...
+[16:26:38] Finished 'linting' after 67 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnslist-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[16:27:01] Starting 'eslint'...
+[16:27:01] Starting 'jsonlint'...
+[16:27:01] Finished 'jsonlint' after 184 ms
+[16:27:02] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:27:02] Finished 'eslint' after 1.24 s
+[16:27:02] Starting 'linting'...
+[16:27:02] Finished 'linting' after 3.95 μs
+File /pj/domain-as-mail/appm/app/main/main.js was changed, running tasks...
+[BS] Reloading Browsers...
+[16:28:22] Starting 'eslint'...
+[16:28:22] Starting 'jsonlint'...
+[16:28:22] Finished 'jsonlint' after 302 ms
+[16:28:23] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:28:23] Finished 'eslint' after 1.32 s
+[16:28:23] Starting 'linting'...
+[16:28:23] Finished 'linting' after 6.31 μs
+File /pj/domain-as-mail/appm/app/main/main.js was changed, running tasks...
+[BS] Reloading Browsers...
+[16:28:46] Starting 'eslint'...
+[16:28:46] Starting 'jsonlint'...
+[16:28:46] Finished 'jsonlint' after 201 ms
+[16:28:47] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:28:47] Finished 'eslint' after 1.34 s
+[16:28:47] Starting 'linting'...
+[16:28:47] Finished 'linting' after 5.77 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnslist.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:30:31] Starting 'eslint'...
+[16:30:31] Starting 'jsonlint'...
+[16:30:31] Finished 'jsonlint' after 332 ms
+[16:30:32] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:30:32] Finished 'eslint' after 1.28 s
+[16:30:32] Starting 'linting'...
+[16:30:32] Finished 'linting' after 6.85 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[16:33:46] Starting 'eslint'...
+[16:33:46] Starting 'jsonlint'...
+[16:33:47] Finished 'jsonlint' after 249 ms
+[16:33:48] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:33:48] Finished 'eslint' after 1.26 s
+[16:33:48] Starting 'linting'...
+[16:33:48] Finished 'linting' after 6.38 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[16:34:41] Starting 'eslint'...
+[16:34:41] Starting 'jsonlint'...
+[16:34:41] Finished 'jsonlint' after 193 ms
+[16:34:42] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:34:42] Finished 'eslint' after 1.37 s
+[16:34:42] Starting 'linting'...
+[16:34:42] Finished 'linting' after 6.49 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:36:29] Starting 'eslint'...
+[16:36:29] Starting 'jsonlint'...
+[16:36:29] Finished 'jsonlint' after 291 ms
+[16:36:30] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:36:30] Finished 'eslint' after 1.24 s
+[16:36:30] Starting 'linting'...
+[16:36:30] Finished 'linting' after 5.81 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:41:09] Starting 'eslint'...
+[16:41:09] Starting 'jsonlint'...
+[16:41:09] Finished 'jsonlint' after 274 ms
+[16:41:10] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:41:10] Finished 'eslint' after 1.25 s
+[16:41:10] Starting 'linting'...
+[16:41:10] Finished 'linting' after 4.23 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:43:53] Starting 'eslint'...
+[16:43:53] Starting 'jsonlint'...
+[16:43:53] Finished 'jsonlint' after 205 ms
+
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:43:54] Finished 'eslint' after 1.54 s
+[16:43:54] [16:43:54] Starting 'linting'...
+[16:43:54] Finished 'linting' after 4.63 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[16:45:01] Starting 'eslint'...
+[16:45:01] Starting 'jsonlint'...
+[16:45:01] Finished 'jsonlint' after 286 ms
+[16:45:02] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used    no-unused-vars
+   6:9  error  "alert" is defined but never used  no-unused-vars
+  14:7  error  "$ionicHistory" is not defined     no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[16:45:02] Finished 'eslint' after 1.37 s
+[16:45:02] Starting 'linting'...
+[16:45:02] Finished 'linting' after 6.48 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[18:32:46] Starting 'eslint'...
+[18:32:46] Starting 'jsonlint'...
+[18:32:47] Finished 'jsonlint' after 254 ms
+[18:32:48] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+    5:9   error  "log" is defined but never used  no-unused-vars
+   14:7   error  "$ionicHistory" is not defined   no-undef
+   31:23  error  "dnsList" is not defined         no-undef
+   44:36  error  "PDD" is not defined             no-undef
+   44:59  error  "PDD" is not defined             no-undef
+  121:5   error  "dnsList" is not defined         no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 10 problems (10 errors, 0 warnings)
+
+[18:32:48] Finished 'eslint' after 1.3 s
+[18:32:48] Starting 'linting'...
+[18:32:48] Finished 'linting' after 6.23 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[18:33:22] Starting 'eslint'...
+[18:33:22] Starting 'jsonlint'...
+[18:33:22] Finished 'jsonlint' after 191 ms
+[18:33:23] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  31:23  error  "dnsList" is not defined         no-undef
+  44:36  error  "PDD" is not defined             no-undef
+  44:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:33:23] Finished 'eslint' after 1.31 s
+[18:33:23] Starting 'linting'...
+[18:33:23] Finished 'linting' after 3.95 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[18:35:53] Starting 'eslint'...
+[18:35:53] Starting 'jsonlint'...
+[18:35:54] Finished 'jsonlint' after 276 ms
+[18:35:55] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  27:1   error  Trailing spaces not allowed      no-trailing-spaces
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 10 problems (10 errors, 0 warnings)
+
+[18:35:55] Finished 'eslint' after 1.21 s
+[18:35:55] Starting 'linting'...
+[18:35:55] Finished 'linting' after 6.26 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:36:45] Starting 'eslint'...
+[18:36:45] Starting 'jsonlint'...
+[18:36:45] Finished 'jsonlint' after 173 ms
+[18:36:45] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  27:1   error  Trailing spaces not allowed      no-trailing-spaces
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 10 problems (10 errors, 0 warnings)
+
+[18:36:45] Finished 'eslint' after 764 ms
+[18:36:45] Starting 'linting'...
+[18:36:45] Finished 'linting' after 4.53 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:36:49] Starting 'eslint'...
+Starting 'jsonlint'...
+[18:36:49] [18:36:49] Finished 'jsonlint' after 107 ms
+
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  27:1   error  Trailing spaces not allowed      no-trailing-spaces
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 10 problems (10 errors, 0 warnings)
+
+[18:36:49] [18:36:49] Finished 'eslint' after 637 ms
+[18:36:49] Starting 'linting'...
+[18:36:49] Finished 'linting' after 5.44 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:36:54] Starting 'eslint'...
+[18:36:54] Starting 'jsonlint'...
+[18:36:54] Finished 'jsonlint' after 108 ms
+[18:36:54] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  27:1   error  Trailing spaces not allowed      no-trailing-spaces
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 10 problems (10 errors, 0 warnings)
+
+[18:36:54] Finished 'eslint' after 637 ms
+[18:36:54] Starting 'linting'...
+[18:36:54] Finished 'linting' after 3.3 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:37:06] Starting 'eslint'...
+[18:37:06] Starting 'jsonlint'...
+[18:37:06] Finished 'jsonlint' after 112 ms
+[18:37:07] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  27:1   error  Trailing spaces not allowed      no-trailing-spaces
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 10 problems (10 errors, 0 warnings)
+
+[18:37:07] Finished 'eslint' after 716 ms
+[18:37:07] Starting 'linting'...
+[18:37:07] Finished 'linting' after 3.5 μs
+File /pj/domain-as-mail/appm/app/main/controllers/dnsRecordAdd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[18:41:39] Starting 'eslint'...
+[18:41:39] Starting 'jsonlint'...
+[18:41:39] Finished 'jsonlint' after 173 ms
+[18:41:41] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:41:41] Finished 'eslint' after 1.34 s
+[18:41:41] Starting 'linting'...
+[18:41:41] Finished 'linting' after 5.98 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:42:45] Starting 'eslint'...
+[18:42:45] Starting 'jsonlint'...
+[18:42:46] Finished 'jsonlint' after 268 ms
+[18:42:47] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:42:47] Finished 'eslint' after 1.37 s
+[18:42:47] Starting 'linting'...
+[18:42:47] Finished 'linting' after 3.79 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:46:08] Starting 'eslint'...
+[18:46:08] Starting 'jsonlint'...
+[18:46:08] Finished 'jsonlint' after 260 ms
+[18:46:09] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:46:09] Finished 'eslint' after 1.31 s
+[18:46:09] Starting 'linting'...
+[18:46:09] Finished 'linting' after 7.08 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:46:53] Starting 'eslint'...
+[18:46:53] Starting 'jsonlint'...
+Finished 'jsonlint' after 207 ms
+[18:46:53] [18:46:55] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:46:55] Finished 'eslint' after 1.4 s
+[18:46:55] Starting 'linting'...
+[18:46:55] Finished 'linting' after 6.02 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:47:42] Starting 'eslint'...
+[18:47:42] Starting 'jsonlint'...
+[18:47:42] Finished 'jsonlint' after 310 ms
+[18:47:43] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:47:43] Finished 'eslint' after 1.27 s
+[18:47:43] Starting 'linting'...
+[18:47:43] Finished 'linting' after 4.31 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:47:55] Starting 'eslint'...
+[18:47:55] Starting 'jsonlint'...
+[18:47:55] Finished 'jsonlint' after 166 ms
+[18:47:56] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:47:56] Finished 'eslint' after 1.07 s
+[18:47:56] Starting 'linting'...
+[18:47:56] Finished 'linting' after 5.46 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:48:09] Starting 'eslint'...
+[18:48:09] Starting 'jsonlint'...
+[18:48:09] Finished 'jsonlint' after 172 ms
+[18:48:10] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:48:10] Finished 'eslint' after 1.09 s
+[18:48:10] Starting 'linting'...
+[18:48:10] Finished 'linting' after 3.58 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:48:45] Starting 'eslint'...
+[18:48:45] Starting 'jsonlint'...
+[18:48:45] Finished 'jsonlint' after 267 ms
+[18:48:46] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:48:46] Finished 'eslint' after 1.3 s
+[18:48:46] Starting 'linting'...
+[18:48:46] Finished 'linting' after 6.22 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:55:10] Starting 'eslint'...
+[18:55:10] Starting 'jsonlint'...
+[18:55:10] Finished 'jsonlint' after 262 ms
+[18:55:12] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:55:12] Finished 'eslint' after 1.35 s
+[18:55:12] Starting 'linting'...
+[18:55:12] Finished 'linting' after 5.37 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:56:28] Starting 'eslint'...
+[18:56:28] Starting 'jsonlint'...
+[18:56:28] Finished 'jsonlint' after 173 ms
+[18:56:29] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:56:29] Finished 'eslint' after 1.27 s
+[18:56:29] Starting 'linting'...
+[18:56:29] Finished 'linting' after 3.65 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:56:44] Starting 'eslint'...
+[18:56:44] Starting 'jsonlint'...
+[18:56:44] Finished 'jsonlint' after 175 ms
+[18:56:45] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:56:45] Finished 'eslint' after 1.34 s
+[18:56:45] Starting 'linting'...
+[18:56:45] Finished 'linting' after 5.7 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:57:06] Starting 'eslint'...
+[18:57:06] Starting 'jsonlint'...
+[18:57:07] Finished 'jsonlint' after 172 ms
+[18:57:08] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:57:08] Finished 'eslint' after 1.32 s
+[18:57:08] Starting 'linting'...
+[18:57:08] Finished 'linting' after 3.79 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:57:34] Starting 'eslint'...
+[18:57:34] Starting 'jsonlint'...
+[18:57:35] Finished 'jsonlint' after 189 ms
+[18:57:36] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:57:36] Finished 'eslint' after 1.29 s
+[18:57:36] Starting 'linting'...
+[18:57:36] Finished 'linting' after 5.82 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:58:09] Starting 'eslint'...
+[18:58:09] Starting 'jsonlint'...
+[18:58:09] Finished 'jsonlint' after 278 ms
+[18:58:10] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:58:10] Finished 'eslint' after 1.31 s
+[18:58:10] Starting 'linting'...
+[18:58:10] Finished 'linting' after 3.71 μs
+File /pj/domain-as-mail/appm/app/main/templates/dnsrecord_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[18:58:20] Starting 'eslint'...
+[18:58:20] Starting 'jsonlint'...
+[18:58:20] Finished 'jsonlint' after 184 ms
+[18:58:21] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9   error  "log" is defined but never used  no-unused-vars
+  14:7   error  "$ionicHistory" is not defined   no-undef
+  32:23  error  "dnsList" is not defined         no-undef
+  45:36  error  "PDD" is not defined             no-undef
+  45:59  error  "PDD" is not defined             no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[18:58:21] Finished 'eslint' after 1.2 s
+[18:58:21] Starting 'linting'...
+[18:58:21] Finished 'linting' after 3.87 μs

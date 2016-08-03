@@ -75,6 +75,15 @@ angular.module('main', [])
         }
       }
     })
+    .state('main.dnsRecordAdd', {
+      url: '/domain/:domain/dns/:dns',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/dnsrecord_add.html',
+          controller: 'dnsRecordAddCtrl as ctrl'
+        }
+      }
+    })
     .state('main.maillistList', {
       url: '/domain/:domain/maillist',
       views: {

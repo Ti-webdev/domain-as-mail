@@ -6,12 +6,18 @@ angular.module('main')
     var dnsList = this
     dnsList.domain = $stateParams.domain
 
+    dnsList.log = log
+
     //DNS
     var $newDNSScope = $scope.$new()
     var newDNSRecordModal = $ionicModal.fromTemplateUrl('main/templates/dnsrecord_add.html', {
       scope: $newDNSScope,
       animation: 'slide-in-up'
     })
+
+    dnsList.stringify = function (dnsRecord) {
+      return JSON.stringify(dnsRecord)
+    }
 
     $newDNSScope.isEdit = false
 
