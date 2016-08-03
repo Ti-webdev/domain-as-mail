@@ -111,4 +111,13 @@ angular.module('main', [])
         }
       }
     })
+    .state('main.deputy', {
+      url: '/domain/:domain/deputies/addDeputy',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/deputy_add.html',
+          controller: 'deputyAddCtrl as ctrl'
+        }
+      }
+    })
 })

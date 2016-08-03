@@ -35,37 +35,6 @@ angular.module('main')
         })
     }
 
-    deputyList.addDeputy = function () {
-      $deputyScope.addDeputy = function (login) {
-        var params = {
-          domain: deputyList.domain,
-          login: login.toLowerCase()
-        }
-        PDD.deputy.add(params)
-          .then(function (result) {
-            if (result.success && 'ok' === result.success) {
-              deputyList.deputies.push(params.login)
-              $deputyScope.modal.hide()
-              $deputyScope.deputy = {
-                login: ''
-              }
-            }
-            else if (result.error) {
-              throw new Error(result.error)
-            }
-            else {
-              throw new Error(angular.toJson(result))
-            }
-          }, function (err) {
-            alert('Error ' + err.message)
-          })
-      }
-      deputyModal.then(function (modal) {
-        $deputyScope.modal = modal
-        modal.show()
-      })
-    }
-
     deputyList.deleteDeputy = function (login) {
       var params = {
         domain: deputyList.domain,

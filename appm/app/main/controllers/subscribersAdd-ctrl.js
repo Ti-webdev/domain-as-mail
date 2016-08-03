@@ -28,7 +28,7 @@ angular.module('main')
     }
 
     subscribers.isNotSubscribe = function (account) {
-      if (subscribers.mailList) {
+      if (subscribers.subscribers) {
         return -1 === subscribers.subscribers.indexOf(account.login)
       }
       else {
@@ -88,7 +88,7 @@ angular.module('main')
         .then(function (result) {
           if (result.success && 'ok' === result.success) {
             subscribers.subscribers.push(params.subscriber)
-            if (subscriberName === $subscribersScope.newSubscriber.name) {
+            if (subscriberName === subscribers.newSubscriber.name) {
               subscribers.newSubscriber.name = ''
               subscribers.newSubscriber.focus = true
             }

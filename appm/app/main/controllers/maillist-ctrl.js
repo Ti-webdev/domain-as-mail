@@ -32,40 +32,6 @@ angular.module('main')
       focus: false
     }
 
-    maillistList.addMailList = function () {
-      $mailListScope.domain = maillistList.domain
-      $mailListScope.addMailList = function (name) {
-        var params = {
-          domain: maillistList.domain,
-          maillist: name.toLowerCase()
-        }
-        PDD.ml.add(params)
-          .then(function (result) {
-            if (result.success && 'ok' === result.success) {
-              $mailListScope.modal.hide()
-              var newmailList = {
-                maillist : result.maillist,
-                cnt : 0
-              }
-              maillistList.mailLists.push(newmailList);
-              maillistList.refreshAccounts()
-            }
-            else if (result.error) {
-              throw new Error(result.error)
-            }
-            else {
-              throw new Error(angular.toJson(result))
-            }
-          }, function (err) {
-            alert('Error ' + err.message)
-          })
-      }
-      mailListModal.then(function (modal) {
-        $mailListScope.modal = modal
-        return modal.show()
-      })
-    }
-
     maillistList.deleteMailList = function (mailList) {
       var params = {
         domain: maillistList.domain,

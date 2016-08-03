@@ -22,11 +22,11 @@
           type="item-text-wrap"
           ui-sref="main.mailbox({domain: mailboxList.domain, login: account.login, isOwner: mailboxList.owner})">
           <div class="row">
-            <p style="font-family:Roboto-Bold;font-size:16px;color:rgba(0,0,0,0.87);" ng-class="{'assertive': mailboxList.isBlocked(account)}">{{ account.prefix }}</p>
-            <p style="font-family:Roboto-Regular;font-size:16px;color:#b7b8bd;">@{{mailboxList.domain}}</p>
+            <p style="font-family:Roboto-Bold;font-size:0.888rem;color:rgba(0,0,0,0.87);" ng-class="{'assertive': mailboxList.isBlocked(account)}">{{ account.prefix }}</p>
+            <p style="font-family:Roboto-Regular;font-size:0.888rem;color:#b7b8bd;">@{{mailboxList.domain}}</p>
           </div>
           <div class="row">
-            <p style="font-family:Roboto-Regular;font-size:14px;color:#b7b8bd;">
+            <p style="font-family:Roboto-Regular;font-size:0.7777rem;color:#b7b8bd;">
               {{ account.fio }}
               <span ng-if="account.counters">(новых: {{account.counters.new}}, из: {{account.counters.unread}})</span>
             </p>
