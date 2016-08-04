@@ -1444,3 +1444,831 @@ app/main/controllers/subscribersAdd-ctrl.js
 [12:22:30] Finished 'eslint' after 877 ms
 [12:22:30] Starting 'linting'...
 [12:22:30] Finished 'linting' after 12 μs
+File /pj/domain-as-mail/appm/app/main/main.js was changed, running tasks...
+[BS] Reloading Browsers...
+[12:26:23] Starting 'eslint'...
+[12:26:23] Starting 'jsonlint'...
+[12:26:23] Finished 'jsonlint' after 254 ms
+[12:26:25] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 6 problems (6 errors, 0 warnings)
+
+[12:26:25] Finished 'eslint' after 1.34 s
+[12:26:25] Starting 'linting'...
+[12:26:25] Finished 'linting' after 4.4 μs
+File /pj/domain-as-mail/appm/app/main/controllers/domainadd-ctrl.js was added, running tasks...
+[12:26:54] Starting 'clean'...
+[12:26:54] Starting 'wiredep'...
+[12:26:54] Starting 'bower-fonts'...
+[12:26:54] Starting 'environment'...
+[12:26:54] gulp-inject Nothing to inject into main/constants/config-const.js.
+[12:26:54] Finished 'wiredep' after 87 ms
+[12:26:54] Finished 'environment' after 55 ms
+[12:26:54] Starting 'build-vars'...
+[12:26:54] Finished 'clean' after 97 ms
+[12:26:54] Starting 'styles'...
+[12:26:54] gulp-inject 1 files into main/constants/config-const.js.
+[12:26:55] Starting 'environment'...
+File /pj/domain-as-mail/appm/app/main/constants/config-const.js was changed, running tasks...
+[BS] Reloading Browsers...
+[12:26:55] Starting 'eslint'...
+[12:26:55] Starting 'jsonlint'...
+File /pj/domain-as-mail/appm/app/index.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:26:55] Finished 'build-vars' after 964 ms
+[12:26:55] gulp-inject Nothing to inject into main/constants/config-const.js.
+[12:26:55] Finished 'jsonlint' after 203 ms
+[12:26:55] Finished 'environment' after 251 ms
+File /pj/domain-as-mail/appm/.tmp/main/styles/main.css was changed, running tasks...
+[BS] Reloading Browsers...
+[12:26:55] Starting 'jsonlint'...
+File /pj/domain-as-mail/appm/.tmp/signup/styles/signup.css was changed, running tasks...
+[BS] Reloading Browsers...
+[12:26:55] Finished 'styles' after 1.32 s
+[12:26:55] Finished 'jsonlint' after 168 ms
+[12:26:56] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 6 problems (6 errors, 0 warnings)
+
+[12:26:56] Finished 'eslint' after 1.64 s
+[12:26:56] Starting 'linting'...
+[12:26:56] Finished 'linting' after 5.61 μs
+[12:26:57] Finished 'bower-fonts' after 2.74 s
+[12:26:57] Starting 'inject-all'...
+[12:26:57] gulp-inject 20 files into index.html.
+[12:26:57] gulp-inject 2 files into index.html.
+[12:26:57] Finished 'inject-all' after 160 ms
+File /pj/domain-as-mail/appm/app/index.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:26:57] Starting 'eslint'...
+[12:26:57] Starting 'jsonlint'...
+[12:26:57] Finished 'jsonlint' after 180 ms
+[12:26:58] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 6 problems (6 errors, 0 warnings)
+
+[12:26:58] Finished 'eslint' after 1.23 s
+[12:26:58] Starting 'linting'...
+[12:26:58] Finished 'linting' after 3.64 μs
+File /pj/domain-as-mail/appm/app/main/controllers/domainadd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[12:28:26] Starting 'eslint'...
+[12:28:26] Starting 'jsonlint'...
+[12:28:26] Finished 'jsonlint' after 294 ms
+[12:28:28] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+  5:5   error  "domainAdd" is not defined       no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 8 problems (8 errors, 0 warnings)
+
+[12:28:28] Finished 'eslint' after 1.51 s
+[12:28:28] Starting 'linting'...
+[12:28:28] Finished 'linting' after 6.18 μs
+File /pj/domain-as-mail/appm/app/main/controllers/domainadd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[12:28:28] Starting 'eslint'...
+[12:28:28] Starting 'jsonlint'...
+[12:28:28] Finished 'jsonlint' after 231 ms
+[12:28:29] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+  5:5   error  "domainAdd" is not defined       no-undef
+  9:1   error  Trailing spaces not allowed      no-trailing-spaces
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[12:28:29] Finished 'eslint' after 1.34 s
+[12:28:29] Starting 'linting'...
+[12:28:29] Finished 'linting' after 3.06 μs
+File /pj/domain-as-mail/appm/app/main/templates/domain_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:29:25] Starting 'eslint'...
+[12:29:25] Starting 'jsonlint'...
+[12:29:26] Finished 'jsonlint' after 372 ms
+[12:29:27] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+  5:5   error  "domainAdd" is not defined       no-undef
+  9:1   error  Trailing spaces not allowed      no-trailing-spaces
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[12:29:27] Finished 'eslint' after 1.44 s
+[12:29:27] Starting 'linting'...
+[12:29:27] Finished 'linting' after 6.02 μs
+File /pj/domain-as-mail/appm/app/main/templates/domain_add.html was deleted, running tasks...
+[12:30:40] Starting 'clean'...
+[12:30:40] Starting 'wiredep'...
+[12:30:40] Starting 'bower-fonts'...
+[12:30:40] Starting 'environment'...
+[12:30:41] gulp-inject Nothing to inject into main/constants/config-const.js.
+[12:30:41] Finished 'wiredep' after 90 ms
+[12:30:41] Finished 'environment' after 55 ms
+[12:30:41] Starting 'build-vars'...
+[12:30:41] Finished 'clean' after 98 ms
+[12:30:41] Starting 'styles'...
+File /pj/domain-as-mail/appm/app/index.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:30:41] Starting 'eslint'...
+[12:30:41] Starting 'jsonlint'...
+gulp-inject 1 files into main/constants/config-const.js.
+[12:30:41] File /pj/domain-as-mail/appm/app/main/templates/domainadd.html was renamed, running tasks...
+[12:30:42] Starting 'clean'...
+[12:30:42] Starting 'wiredep'...
+[12:30:42] Starting 'environment'...
+File /pj/domain-as-mail/appm/app/main/constants/config-const.js was changed, running tasks...
+[BS] Reloading Browsers...
+[12:30:42] Finished 'clean' after 32 ms
+[12:30:42] Finished 'build-vars' after 1.12 s
+[12:30:42] gulp-inject Nothing to inject into main/constants/config-const.js.
+[12:30:42] Finished 'jsonlint' after 1.16 s
+[12:30:42] Finished 'wiredep' after 215 ms
+[12:30:42] Finished 'environment' after 245 ms
+File /pj/domain-as-mail/appm/app/index.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:30:42] Starting 'jsonlint'...
+File /pj/domain-as-mail/appm/.tmp/main/styles/main.css was changed, running tasks...
+[BS] Reloading Browsers...
+[12:30:42] Finished 'styles' after 1.44 s
+[12:30:42] Finished 'jsonlint' after 194 ms
+File /pj/domain-as-mail/appm/.tmp/signup/styles/signup.css was changed, running tasks...
+[BS] Reloading Browsers...
+[12:30:42] Starting 'jsonlint'...
+[12:30:42] Finished 'jsonlint' after 151 ms
+[12:30:43] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+  5:5   error  "domainAdd" is not defined       no-undef
+  9:1   error  Trailing spaces not allowed      no-trailing-spaces
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[12:30:43] Finished 'eslint' after 2.38 s
+[12:30:43] Starting 'linting'...
+[12:30:43] Finished 'linting' after 5.7 μs
+[12:30:43] Finished 'bower-fonts' after 2.57 s
+[12:30:43] Starting 'inject-all'...
+[12:30:43] gulp-inject 20 files into index.html.
+[12:30:43] gulp-inject 2 files into index.html.
+[12:30:43] Finished 'inject-all' after 109 ms
+File /pj/domain-as-mail/appm/app/index.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:30:43] Starting 'eslint'...
+[12:30:43] Starting 'jsonlint'...
+[12:30:43] Finished 'jsonlint' after 170 ms
+[12:30:44] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+  5:5   error  "domainAdd" is not defined       no-undef
+  9:1   error  Trailing spaces not allowed      no-trailing-spaces
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[12:30:44] Finished 'eslint' after 1.14 s
+[12:30:44] Starting 'linting'...
+[12:30:44] Finished 'linting' after 3.85 μs
+File /pj/domain-as-mail/appm/app/main/main.js was changed, running tasks...
+[BS] Reloading Browsers...
+[12:30:59] Starting 'eslint'...
+[12:30:59] Starting 'jsonlint'...
+[12:30:59] Finished 'jsonlint' after 167 ms
+[12:31:00] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+  5:5   error  "domainAdd" is not defined       no-undef
+  9:1   error  Trailing spaces not allowed      no-trailing-spaces
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[12:31:00] Finished 'eslint' after 1.11 s
+[12:31:00] Starting 'linting'...
+[12:31:00] Finished 'linting' after 5.56 μs
+File /pj/domain-as-mail/appm/app/main/controllers/domains-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[12:32:20] Starting 'eslint'...
+[12:32:20] Starting 'jsonlint'...
+[12:32:20] Finished 'jsonlint' after 279 ms
+[12:32:21] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+  5:5   error  "domainAdd" is not defined       no-undef
+  9:1   error  Trailing spaces not allowed      no-trailing-spaces
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[12:32:21] Finished 'eslint' after 1.36 s
+[12:32:21] Starting 'linting'...
+[12:32:21] Finished 'linting' after 6.21 μs
+File /pj/domain-as-mail/appm/app/main/templates/domains.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:33:16] Starting 'eslint'...
+[12:33:16] Starting 'jsonlint'...
+[12:33:17] Finished 'jsonlint' after 297 ms
+[12:33:18] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+  5:5   error  "domainAdd" is not defined       no-undef
+  9:1   error  Trailing spaces not allowed      no-trailing-spaces
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[12:33:18] [12:33:18] Starting 'linting'...
+[12:33:18] Finished 'linting' after 11 μs
+Finished 'eslint' after 1.25 s
+File /pj/domain-as-mail/appm/app/main/templates/domains.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:33:23] Starting 'eslint'...
+[12:33:23] Starting 'jsonlint'...
+[12:33:24] Finished 'jsonlint' after 179 ms
+[12:33:25] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+  5:5   error  "domainAdd" is not defined       no-undef
+  9:1   error  Trailing spaces not allowed      no-trailing-spaces
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[12:33:25] Finished 'eslint' after 1.16 s
+[12:33:25] Starting 'linting'...
+[12:33:25] Finished 'linting' after 6.25 μs
+File /pj/domain-as-mail/appm/app/main/templates/domains.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:33:40] Starting 'eslint'...
+[12:33:40] Starting 'jsonlint'...
+[12:33:40] Finished 'jsonlint' after 157 ms
+[12:33:41] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+  5:5   error  "domainAdd" is not defined       no-undef
+  9:1   error  Trailing spaces not allowed      no-trailing-spaces
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[12:33:41] Finished 'eslint' after 1.12 s
+[12:33:41] Starting 'linting'...
+[12:33:41] Finished 'linting' after 8.77 μs
+File /pj/domain-as-mail/appm/app/main/templates/domains.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:34:31] Starting 'eslint'...
+[12:34:31] Starting 'jsonlint'...
+[12:34:31] Finished 'jsonlint' after 280 ms
+[12:34:32] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+  5:5   error  "domainAdd" is not defined       no-undef
+  9:1   error  Trailing spaces not allowed      no-trailing-spaces
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 9 problems (9 errors, 0 warnings)
+
+[12:34:32] Finished 'eslint' after 1.27 s
+[12:34:32] Starting 'linting'...
+[12:34:32] Finished 'linting' after 4.17 μs
+File /pj/domain-as-mail/appm/app/main/controllers/domainadd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[12:35:13] Starting 'eslint'...
+[12:35:13] Starting 'jsonlint'...
+[12:35:13] Finished 'jsonlint' after 194 ms
+[12:35:14] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[12:35:14] Finished 'eslint' after 1.33 s
+[12:35:14] Starting 'linting'...
+[12:35:14] Finished 'linting' after 7.25 μs
+File /pj/domain-as-mail/appm/app/main/templates/domainadd.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:35:37] Starting 'eslint'...
+[12:35:37] Starting 'jsonlint'...
+[12:35:38] Finished 'jsonlint' after 197 ms
+[12:35:39] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[12:35:39] Finished 'eslint' after 1.26 s
+[12:35:39] Starting 'linting'...
+[12:35:39] Finished 'linting' after 4.52 μs
+File /pj/domain-as-mail/appm/app/main/templates/domainadd.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:37:18] Starting 'eslint'...
+[12:37:18] Starting 'jsonlint'...
+[12:37:18] Finished 'jsonlint' after 274 ms
+[12:37:19] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[12:37:19] Finished 'eslint' after 1.33 s
+[12:37:19] Starting 'linting'...
+[12:37:19] Finished 'linting' after 3.57 μs
+File /pj/domain-as-mail/appm/app/main/templates/domainadd.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:38:13] Starting 'eslint'...
+[12:38:13] Starting 'jsonlint'...
+[12:38:14] Finished 'jsonlint' after 275 ms
+[12:38:15] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[12:38:15] Finished 'eslint' after 1.29 s
+[12:38:15] Starting 'linting'...
+[12:38:15] Finished 'linting' after 4.14 μs
+File /pj/domain-as-mail/appm/app/main/templates/domainadd.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:38:58] Starting 'eslint'...
+[12:38:58] Starting 'jsonlint'...
+[12:38:58] Finished 'jsonlint' after 285 ms
+[12:38:59] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[12:38:59] Finished 'eslint' after 1.34 s
+[12:38:59] Starting 'linting'...
+[12:38:59] Finished 'linting' after 4.33 μs
+File /pj/domain-as-mail/appm/app/main/templates/domainadd.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:39:57] Starting 'eslint'...
+[12:39:57] Starting 'jsonlint'...
+[12:39:57] Finished 'jsonlint' after 126 ms
+[12:39:58] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[12:39:58] Finished 'eslint' after 995 ms
+[12:39:58] Starting 'linting'...
+[12:39:58] Finished 'linting' after 7.34 μs
+File /pj/domain-as-mail/appm/app/main/templates/deputy_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:40:06] Starting 'eslint'...
+[12:40:06] Starting 'jsonlint'...
+[12:40:06] Finished 'jsonlint' after 133 ms
+[12:40:07] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[12:40:07] Finished 'eslint' after 836 ms
+[12:40:07] Starting 'linting'...
+[12:40:07] Finished 'linting' after 4.37 μs
+File /pj/domain-as-mail/appm/app/main/templates/deputy_add.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:40:53] Starting 'eslint'...
+[12:40:53] Starting 'jsonlint'...
+[12:40:53] Finished 'jsonlint' after 269 ms
+[12:40:54] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[12:40:54] Finished 'eslint' after 1.53 s
+[12:40:54] Starting 'linting'...
+[12:40:54] Finished 'linting' after 6.73 μs
+File /pj/domain-as-mail/appm/app/main/templates/domainadd.html was changed, running tasks...
+[BS] Reloading Browsers...
+[12:40:59] Starting 'eslint'...
+[12:40:59] Starting 'jsonlint'...
+[12:41:00] Finished 'jsonlint' after 202 ms
+[12:41:01] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  3:70  error  "PDD" is defined but never used  no-unused-vars
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[12:41:01] Finished 'eslint' after 1.29 s
+[12:41:01] Starting 'linting'...
+[12:41:01] Finished 'linting' after 6.78 μs
+File /pj/domain-as-mail/appm/app/main/controllers/domainadd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[12:45:49] Starting 'eslint'...
+[12:45:49] Starting 'jsonlint'...
+[12:45:50] Finished 'jsonlint' after 270 ms
+[12:45:51] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/domainadd-ctrl.js
+  19:13  error  "domains" is not defined  no-undef
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+[12:45:51] Finished 'eslint' after 1.36 s
+[12:45:51] Starting 'linting'...
+[12:45:51] Finished 'linting' after 5.41 μs
+File /pj/domain-as-mail/appm/app/main/controllers/domainadd-ctrl.js was changed, running tasks...
+[BS] Reloading Browsers...
+[12:53:42] Starting 'eslint'...
+[12:53:42] Starting 'jsonlint'...
+[12:53:42] Finished 'jsonlint' after 266 ms
+[12:53:44] 
+app/main/controllers/deputylist-ctrl.js
+  10:9  error  "deputyModal" is defined but never used  no-unused-vars
+
+app/main/controllers/dnsRecordAdd-ctrl.js
+   5:9  error  "log" is defined but never used                         no-unused-vars
+  10:9  error  Expected indentation of 6 space characters but found 8  indent
+
+app/main/controllers/maillist-ctrl.js
+  18:9  error  "mailListModal" is defined but never used  no-unused-vars
+
+app/main/controllers/maillistAddList-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+app/main/controllers/subscribersAdd-ctrl.js
+  6:9  error  "log" is defined but never used  no-unused-vars
+
+✖ 6 problems (6 errors, 0 warnings)
+
+[12:53:44] Finished 'eslint' after 1.42 s
+[12:53:44] Starting 'linting'...
+[12:53:44] Finished 'linting' after 5.97 μs

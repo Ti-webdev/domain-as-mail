@@ -34,7 +34,7 @@ angular.module('main')
 
 
   var $addScope = $scope.$root.$new();
-  var addModal = $ionicModal.fromTemplateUrl('main/templates/domain_add.html', {
+  var addModal = $ionicModal.fromTemplateUrl('main/templates/domainadd.html', {
     scope: $addScope,
     animation: 'slide-in-up'
   });

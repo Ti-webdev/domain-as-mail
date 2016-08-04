@@ -31,6 +31,15 @@ angular.module('main', [])
         }
       }
     })
+    .state('main.adddomain', {
+      url: '/domains/adddomain',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/domainadd.html',
+          controller: 'DomainAddCtrl as ctrl'
+        }
+      }
+    })
     .state('main.domain', {
       url: '/domain/:domain',
       views: {
