@@ -188,25 +188,23 @@ p.mailboxSubHeader {
   flex-direction: column;
   justify-content: center;
   background-color: white;
-  padding: 9%;
-  width: 45%;
+  width: 9.11111rem;
+  height: 9.11111rem;
 }
 
 .innerItem > img {
-  display: block;
+  display: flex;
+  align-self: center;
   margin: 0 auto;
 }
 
 .innerItem {
   position: relative;
-  height: 100%;
-  width: 100%;
-}
-
-.innerItem {
-  position: relative;
-  height: 100%;
-  width: 100%;
+  height: 9.1111rem;
+  width: 9.1111rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .domainItemText {
@@ -218,7 +216,8 @@ p.mailboxSubHeader {
   display:flex;
   justify-content:center;
   align-items:center;
-  margin-top: 20%;
+  margin-bottom: 0.9375rem;
+  margin-top: 1.388rem;
 }
 
 div.list {
