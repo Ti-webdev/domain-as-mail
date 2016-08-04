@@ -1,12 +1,15 @@
 'use strict'
 angular.module('main')
-  .controller('dnsRecordAddCtrl', function(debug, $stateParams, $window) {
+  .controller('dnsRecordAddCtrl', function(debug, $stateParams, $window, $ionicHistory, PDD) {
 
-    var log = debug('app:domain:dnsList')
+    var log = debug('app:domain:addRecord')
     var alert = $window.alert
     var addRecord = this
     addRecord.domain = $stateParams.domain
-    addRecord.newDNS = JSON.parse($stateParams.dns)
+    if ($stateParams.dns !== '') {
+        addRecord.newDNS = JSON.parse($stateParams.dns)
+    }
+
 
     addRecord.isEdit = false
 
@@ -29,7 +32,7 @@ angular.module('main')
 
       addRecord.processDNSRecord = function (newDNS) {
         var params = {
-          domain:     dnsList.domain,
+          domain:     addRecord.domain,
           record_id:  newDNS.record_id,
           type:       newDNS.type,
           admin_mail: newDNS.admin_mail,

@@ -11,22 +11,37 @@
                       ng-model="ctrl.newDNS.type">
               </select>
         </label>
-        
+
         <ion-item ng-if="isEdit" class="noBorderBottom mailItem item item-input item-stacked-label">
           <span class="input-label inputHeader">Тип DNS записи</span>
           <span class="input-label">"{{ctrl.newDNS.type}}"</span>
         </ion-item>
 
-        <ion-item class="noBorderBottom mailItem item item-input item-stacked-label" style="height:4.5rem" ng-repeat="(key, title) in ctrl.fields">
+        <ion-item class="noBorderBottom mailItem item item-input item-stacked-label" style="height:100%;" ng-repeat="(key, title) in ctrl.fields">
           <span class="input-label inputHeader">{{title}}</span>
           <input class="inputText" type="text" ng-model="ctrl.newDNS[key]" required>
         </ion-item>
 
-        <div class="padding">
-          <button type="submit" class="button button-balanced button-block">
-            Сохранить!
-          </button>
+        <ion-item style="z-index:0;height:2.5rem;" class="mailItem item-icon-right">
+        </ion-item>
+
+        <div class="row buttonGroup">
+
+          <div style="display:flex;justify-content: space-between;">
+            <div style="display:flex;justify-content:flex-end;margin-right: 1rem">
+              <div class="mailboxSaveBtn button" ng-click="ctrl.processDNSRecord(ctrl.newDNS)">
+                <p class="mailboxSaveBtnText">Сохранить</p>
+              </div>
+            </div>
+
+            <div >
+              <div class="mailboxCancelButton button" ng-click="ctrl.goBack()">
+                <p class="mailboxSaveBtnText">Отмена</p>
+              </div>
+            </div>
+          </div>
         </div>
+
       </form>
     </ion-list>
   </ion-content>

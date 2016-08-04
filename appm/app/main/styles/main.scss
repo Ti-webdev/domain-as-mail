@@ -106,6 +106,9 @@ input.inputText {
   font-size:0.75rem;
   font-family:Roboto-Regular;
   color:rgba(0,0,0,0.54);
+  white-space:normal;
+  width: 100%;
+  max-width: 100%;
 }
 
 .noBorderBottom {
