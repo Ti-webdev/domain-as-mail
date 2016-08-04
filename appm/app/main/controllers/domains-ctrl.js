@@ -1,6 +1,6 @@
 'use strict';
 angular.module('main')
-.controller('DomainsCtrl', function ($log, $scope, $ionicModal, PDD) {
+.controller('DomainsCtrl', function ($log, $scope, $ionicModal, PDD, $ionicPopup) {
   var domains = this;
 
   domains.statusTitles = {
@@ -14,6 +14,33 @@ angular.module('main')
     'mx-activate': 'royal',
     'added': 'stable'
   };
+
+
+  domains.delete = function (name) {
+    $ionicPopup.confirm({
+      title: 'Удаление',
+      template: 'Вы действительно хотите домен ' + name + '?',
+      cancelText: 'Отмена',
+      confirmText: 'ОК'
+    }).then(function (res) {
+      if (res) {
+        PDD.domain.delete(name)
+          .then(function (result) {
+            if (result.success && 'ok' === result.success) {
+              domains.doRefresh()
+            }
+            else if (result.error) {
+              throw  new Error(result.error)
+            }
+            else {
+              throw new Error(angular.toJson(result))
+            }
+          }, function (err) {
+            alert('Ошибка ' + err.message)
+          })
+      }
+    })
+  }
 
   domains.doRefresh = function () {
     return PDD.domain.query()
@@ -32,39 +59,4 @@ angular.module('main')
   }
   domains.doRefresh();
 
-
-  var $addScope = $scope.$root.$new();
-  var addModal = $ionicModal.fromTemplateUrl('main/templates/domainadd.html', {
-    scope: $addScope,
-    animation: 'slide-in-up'
-  });
-  $addScope.domain = {
-    name: ''
-  };
-  domains.add = function () {
-    $addScope.addDomain = function (name) {
-      PDD.domain.register(name)
-        .then(function (result) {
-          if (result.success && 'ok' === result.success) {
-            domains.doRefresh();
-            $addScope.modal.hide();
-            $addScope.domain = {
-              name: ''
-            };
-          }
-          else if (result.error) {
-            throw new Error(result.error);
-          }
-          else {
-            throw new Error(angular.toJson(result));
-          }
-        }, function (err) {
-          alert('Error ' + err.message);
-        });
-    };
-    addModal.then(function (modal) {
-      $addScope.modal = modal;
-      modal.show();
-    });
-  };
 });
