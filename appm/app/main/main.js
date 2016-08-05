@@ -75,6 +75,15 @@ angular.module('main', [])
         }
       }
     })
+    .state('main.aliases', {
+      url: '/domain/:domain/mailbox/:login/aliases/:aliases',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/aliases.html',
+          controller: 'aliasesCtrl as ctrl'
+        }
+      }
+    })
     .state('main.mailboxList', {
       url: '/domain/:domain/owner/:owner/mailbox',
       views: {

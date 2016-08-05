@@ -1,27 +1,22 @@
-<ion-modal-view>
-  <ion-header-bar class="bar-royal">
-    <h1 class="title">Алиасы/псевдонимы для {{ account.login }}</h1>
-    <div class="buttons">
-      <button class="button button-clear" ng-click="modal.hide()">Закрыть</button>
-    </div>
-  </ion-header-bar>
-  <ion-content>
+<ion-view view-title="Алиасы/псевдонимы для {{ ctrl.login }}">
+
+  <ion-content class="iosContent">
     <ion-list>
-      <form class="item item-input-inset" ng-submit="addAlias(newAlias.name)">
+      <form class="item item-input-inset" ng-submit="ctrl.addAlias(ctrl.name)">
         <label class="item-input-wrapper">
-          <input ng-model="newAlias.name" type="text" placeholder="Алиас" required>
+          <input ng-model="ctrl.name" type="text" placeholder="Алиас" required>
         </label>
-        <button type="submit" class="button button-icon icon ion-plus-circled royal">
+        <button type="submit" class="button button-icon icon ion-plus-circled calm">
         </button>
       </form>
-      <ion-item ng-repeat="alias in account.aliases | filter:newAlias.name">
+      <ion-item ng-repeat="alias in ctrl.aliases | filter:ctrl.name">
         {{ alias }}
 
         <ion-option-button class="button-assertive"
-                           ng-click="delAlias(alias)">
+                           ng-click="ctrl.delAlias(alias)">
           Удалить
         </ion-option-button>
       </ion-item>
     </ion-list>
   </ion-content>
-</ion-modal-view>
+</ion-view>

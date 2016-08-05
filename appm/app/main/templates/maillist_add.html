@@ -2,11 +2,12 @@
 
   <ion-content class="ionContent">
 
-      <ion-item class="noBorderBottom mailItem item item-input item-stacked-label" style="height:5.66rem; border-top-width:1px; z-index:0";>
-        <span class="input-label" style="font-family:Roboto-Regular;
-          font-size:0.66rem;
-          color:rgba(0,0,0,0.54);">Название рассылки</span>
+      <ion-item class="noBorderBottom mailItem item item-input item-stacked-label" style="border-top-width:1px; z-index:0";>
+        <span class="input-label inputHeader">Название рассылки</span>
         <input class="inputText" type="text" ng-model="ctrl.name" required focus-if="mailList.focus">
+      </ion-item>
+
+      <ion-item class="ionItemDevider noBorderBottom mailItem item-icon-right">
       </ion-item>
 
       <div class="row buttonGroup">
@@ -24,6 +25,6 @@
           </div>
         </div>
       </div>
-    
+
   </ion-content>
 </ion-view>

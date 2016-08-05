@@ -35,6 +35,11 @@ html {
   }
 }
 
+ion-item.ionItemDevider {
+  z-index:0;
+  height:2.5rem;
+}
+
 .comma + .comma:before {
     content: ", ";
 }
@@ -103,7 +108,7 @@ input.inputText {
 }
 
 .inputHeader {
-  font-size:0.75rem;
+  font-size:0.66rem;
   font-family:Roboto-Regular;
   color:rgba(0,0,0,0.54);
   white-space:normal;
@@ -118,7 +123,7 @@ input.inputText {
 
 .mailItem {
   background:#ffffff;
-  height:3.5rem;
+  height:4.5rem;
   padding-right:1rem;
 } p.mailItemText {
   font-family:Roboto-Regular;
@@ -302,7 +307,7 @@ ion-content > div {
 
 .domain-side-menu div.header-item {
   font-family:Roboto-Bold;
-  font-size:1.125rem;
+  font-size:1rem;
   color:#ffffff;
   letter-spacing:0px;
 }
