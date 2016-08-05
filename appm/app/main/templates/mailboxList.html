@@ -1,6 +1,6 @@
 <ion-view view-title="@{{mailboxList.domain}}">
   <ion-nav-buttons side="right">
-    <button class="button button-icon icon ion-ios-plus-empty" ng-click="mailboxList.addMailbox()"></button>
+    <button class="button button-icon icon ion-ios-plus-empty" ui-sref="main.mailboxAdd({domain: mailboxList.domain, isOwner: mailboxList.owner})"></button>
   </ion-nav-buttons>
   <ion-content class="ionContent">
     <ion-refresher

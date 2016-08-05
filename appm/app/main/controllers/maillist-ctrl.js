@@ -13,13 +13,6 @@ angular.module('main')
       $ionicHistory.goBack()
     }
 
-    // mailList
-    var $mailListScope = $scope.$new()
-    var mailListModal = $ionicModal.fromTemplateUrl('main/templates/maillist_add.html', {
-      scope: $mailListScope,
-      animation: 'slide-in-up'
-    })
-
     //Subscribers
     var $subscribersScope = $scope.$new()
     var subscribersModal = $ionicModal.fromTemplateUrl('main/templates/subscribers.html', {

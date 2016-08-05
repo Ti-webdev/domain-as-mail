@@ -37,7 +37,6 @@ angular.module('main')
     }
 
     subscribers.refreshAccounts = function () {
-      var log = debug('app:domain:accounts')
       return PDD.email.query(subscribers.domain)
         .then(function (result) {
           subscribers.accounts = result.accounts || []
@@ -65,6 +64,9 @@ angular.module('main')
       PDD.ml.deleteSubscribers(params)
         .then(function (result) {
           if (result.success && 'ok' === result.success) {
+
+            log('Subscriber ' + JSON.stringify(params) + ' was deleted')
+
             var index = subscribers.subscribers.indexOf(name)
             if (-1 !== index) {
               subscribers.subscribers.splice(index, 1)

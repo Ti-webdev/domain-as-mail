@@ -66,6 +66,15 @@ angular.module('main', [])
         }
       }
     })
+    .state('main.mailboxAdd', {
+      url: '/domain/:domain/isOwner/:isOwner/mailboxAdd/',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/mailbox_add.html',
+          controller: 'MailboxAddCtrl as ctrl'
+        }
+      }
+    })
     .state('main.mailboxList', {
       url: '/domain/:domain/owner/:owner/mailbox',
       views: {

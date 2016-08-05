@@ -7,9 +7,8 @@ angular.module('main')
     var addRecord = this
     addRecord.domain = $stateParams.domain
     if ($stateParams.dns !== '') {
-        addRecord.newDNS = JSON.parse($stateParams.dns)
+      addRecord.newDNS = JSON.parse($stateParams.dns)
     }
-
 
     addRecord.isEdit = false
 
@@ -48,6 +47,8 @@ angular.module('main')
         return (addRecord.isEdit ? PDD.dns.edit(params) : PDD.dns.add(params))
           .then(function (result) {
             if (result.success && 'ok' === result.success) {
+
+              log('save dns record: domain' + params.domain + ', type' + params.type)
 
               addRecord.goBack()
             }

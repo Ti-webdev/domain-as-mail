@@ -22,6 +22,8 @@ angular.module('main')
         .then(function (result) {
           if (result.success && 'ok' === result.success) {
 
+            log('Added maillist domain: ' + params.domain + ' maillist: ' + params.maillist)
+
             maillistList.goBack()
           }
           else if (result.error) {

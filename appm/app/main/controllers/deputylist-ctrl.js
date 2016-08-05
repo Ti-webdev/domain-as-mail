@@ -7,10 +7,7 @@ angular.module('main')
     deputyList.domain = $stateParams.domain
 
     var $deputyScope = $scope.$root.$new()
-    var deputyModal = $ionicModal.fromTemplateUrl('main/templates/deputy_add.html', {
-      scope: $deputyScope,
-      animation: 'slide-in-up'
-    })
+
     $deputyScope.deputy = {
       login: ''
     }

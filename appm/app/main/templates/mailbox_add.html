@@ -1,28 +1,40 @@
-<ion-modal-view>
-  <ion-header-bar class="bar-royal">
-    <h1 class="title">Новый почтовый ящик для {{ domain.name }}</h1>
-    <div class="buttons">
-      <button class="button button-clear" ng-click="modal.hide()">Закрыть</button>
-    </div>
-  </ion-header-bar>
-  <ion-content>
+<ion-view view-title="Новый ящик для @{{ ctrl.domain }}">
+
+  <ion-content class="ionContent">
     <ion-list>
-      <form ng-submit="addMailbox(newAccount.login, newAccount.password)">
-        <label class="item item-input item-stacked-label">
-        <span class="input-label">Логин</span>
-        <input type="text" ng-model="newAccount.login" required>
-        </label>
-        <label class="item item-input item-stacked-label">
+      <form>
+          <ion-item class="noBorderBottom mailItem item item-input item-stacked-label"
+                    style="height:5rem; border-top-width:1px; z-index:0">
+            <span class="input-label">Логин</span>
+            <input class="inputText" type="text" ng-model="ctrl.login" required>
+          </ion-item>
+        <ion-item class="noBorderBottom mailItem item item-input item-stacked-label"
+                style="height:5rem; border-top-width:1px; z-index:0">
           <span class="input-label">Пароль</span>
 
-          <input type="text" ng-model="newAccount.password" required>
-        </label>
-        <div class="padding">
-          <button type="submit" class="button button-balanced button-full">
-            Создать новый
-          </button>
+          <input class="inputText" type="text" ng-model="ctrl.password" required>
+        </ion-item>
+
+        <ion-item style="z-index:0;height:1.5rem;" class="noBorderBottom mailItem item-icon-right">
+        </ion-item>
+
+        <div class="row buttonGroup">
+          <div style="display:flex;justify-content: space-between;">
+            <div style="display:flex;justify-content:flex-end;margin-right: 1rem">
+              <div class="mailboxSaveBtn button" ng-click="ctrl.addMailbox(ctrl.login, ctrl.password)">
+                <p class="mailboxSaveBtnText">Сохранить</p>
+              </div>
+            </div>
+
+            <div >
+              <div class="mailboxCancelButton button" ng-click="ctrl.goBack()">
+                <p class="mailboxSaveBtnText">Отмена</p>
+              </div>
+            </div>
+          </div>
         </div>
+
       </form>
     </ion-list>
   </ion-content>
-</ion-modal-view>
+</ion-view>
