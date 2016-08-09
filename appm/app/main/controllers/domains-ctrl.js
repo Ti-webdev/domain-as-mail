@@ -47,7 +47,7 @@ angular.module('main')
       .then(function (result) {
         domains.domains = result.domains || [];
         domains.error = null;
-        domains.defaultLogo_Url = '../../main/assets/images/image@1x.png'
+        domains.defaultLogo_Url = 'smain/assets/images/image@1x.png'
       })
       .catch(function (err) {
         domains.error = err;

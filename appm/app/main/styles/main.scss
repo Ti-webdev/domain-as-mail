@@ -147,7 +147,7 @@ p.mailboxHeaderText {
   height:70%
 }
 
-p.mailboxSubHeader {
+div.mailboxSubHeader {
   margin-top:2rem;
   font-family:Roboto-Black;
   font-size:3em;
@@ -208,6 +208,7 @@ p.mailboxSubHeader {
   height: 9.1111rem;
   width: 9.1111rem;
   display: flex;
+  padding-top: 0.5rem;
   flex-direction: column;
   justify-content: center;
 }
