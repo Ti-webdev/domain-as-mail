@@ -28,15 +28,13 @@
         type="item-text-wrap"
         ui-sref="main.domain({domain: domain.name})">
         <div style="display:flex;">
-
-          <img ng-src="{{ domain.logo_url || domains.defaultLogo_Url }}" ng-if="!domain.logo_url">
-          <div style="display:flex; flex-direction:column">
+          <div style="display:inline-block;width:3.333rem;height:auto;margin-right:10%">
+              <img class="domainLogo" ng-src="{{ domain.logo_url || domains.defaultLogo_Url }}">
+          </div>
+          <div style="display:flex; flex-direction:column;justify-content: center;">
             <p class="DomainNameText">{{ domain.name }}</p>
             <p class="DomainStatusText" style="font-family:Roboto-Regular;font-size:14px;color:#24c4bc;">{{ domains.statusTitles[domain.status] || domain.status }}</h3>
           </div>
-          <p>
-            <span class="comma" ng-repeat="alias in domain.aliases">{{ alias | idn }}</span>
-          </p>
         </div>
           <i class="icon ion-chevron-right icon-accessory"></i>
           <ion-option-button class="button-assertive"
