@@ -157,9 +157,24 @@ div.mailboxSubHeader {
   height:4rem;
 }
 
+.mailboxFullHeader {
+  opacity: 0;
+  background-color: white;
+  z-index: 2;
+  height: 9.8rem;
+  width: 100%;
+  position: absolute;
+
+}
+
+div.mailboxFullHeader:active {
+  opacity:0.2;
+}
+
 .mailboxHeader {
   border-top:0px;
   background:#24c4bc;
+  z-index:1;
 }
 
 .searchInput {
@@ -174,17 +189,26 @@ div.mailboxSubHeader {
   margin-left:0.7em;
 }
 
+.domainNameHeader {
+  font-family:Roboto-Black;
+  font-size:2.05rem;
+  color:rgba(0,0,0,0.87);
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  height: 28vh;
+  align-items: center;
+}
+
 .domainDetail {
   display:flex;
   align-content:space-between;
   flex-direction: column;
-  height:100%;
 }
 
 .domainDetailRow {
   display:flex;
-  justify-content:space-around;
-  height:30%;
+  justify-content:center;
   margin-bottom: 5%;
 }
 
@@ -195,6 +219,8 @@ div.mailboxSubHeader {
   background-color: white;
   width: 9.11111rem;
   height: 9.11111rem;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .domainLogoContainer {
@@ -246,20 +272,10 @@ ion-content > div {
   height: 100%;
 }
 
-.domainNameHeader {
-  font-family:Roboto-Black;
-  font-size:2.05rem;
-  color:rgba(0,0,0,0.87);
-  text-align:center;
-  display: flex;
-  justify-content: center;
-  height: 33vh;
-  align-items: center;
-}
-
 .domains a.item-content > div > div > p.DomainNameText {
   font-family:Roboto-Regular;
   font-size:1.12rem;
+  height:1.2rem;
   color:#4b4b4b;
   letter-spacing:0px;
 }

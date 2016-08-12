@@ -9,7 +9,7 @@
           {{ domain.name }}
         </div>
 
-        <div class="domainDetailRow">
+        <div class="domainDetailRow" style="align-items: flex-end">
           <div class="domainItem"
                     ui-sref="main.mailboxList({domain: domain.name, owner: domain.owner})">
 
@@ -30,7 +30,7 @@
           </div>
         </div>
 
-        <div class="domainDetailRow">
+        <div class="domainDetailRow" ng-if="domain.owner" style="align-items: flex-start">
 
           <div class="domainItem"
                     ui-sref="main.deputies({domain:domain.name})">

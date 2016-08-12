@@ -5,14 +5,20 @@
       on-refresh="mailbox.doRefresh()">
     </ion-refresher>
     <ion-list>
+      <div ng-if="mailbox.isOwner" class="mailboxFullHeader"
+          ng-click="mailbox.getOAuthToken(mailbox.account)">
+      </div>
       <ion-item class="mailboxHeader" style="height:5rem;">
         <div class="mailboxSubHeader">
           {{mailbox.account.prefix}}
         </div>
       </ion-item>
 
-      <ion-item class="item-icon-right mailboxHeader" style="height:4.8rem;" ng-if="!mailbox.realyBlocked" ng-click="mailbox.getOAuthToken(mailbox.account)">
-        <i class="icon ion-chevron-right icon-accessory" style="font-size:1.5rem; color:white;" ></i>
+      <ion-item class="item-icon-right mailboxHeader"
+                style="height:4.8rem;"
+                ng-if="!mailbox.realyBlocked">
+        <i ng-if="mailbox.isOwner" class="icon ion-chevron-right icon-accessory"
+           style="font-size:1.5rem; color:white;" ></i>
         <p class="mailboxHeaderText" >
           Просмотреть почту
         </p>

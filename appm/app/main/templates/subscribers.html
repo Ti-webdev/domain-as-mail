@@ -4,9 +4,14 @@
     <ion-list
       show-delete="ctrl.newSubscriber.shouldShowDelete && ctrl.subscribers.length">
 
-      <ion-item class="noBorderBottom mailItem item item-input item-stacked-label" style="height:3.5rem; border-top-width:1px;";>
-        <input class="inputText" placeholder="Email подписчика" type="text" ng-model="ctrl.newSubscriber.name" required focus-if="ctrl.newSubscriber.focus">
-      </ion-item>
+      <div class="item item-input-inset" style="background-color:transparent">
+        <label class="searchInput item-input-wrapper">
+          <i class="searchIcon icon-append ion-ios-search-strong"></i>
+          <input placeholder="Email подписчика" type="text"
+                 ng-model="ctrl.newSubscriber.name"
+                 required focus-if="ctrl.newSubscriber.focus">
+        </label>
+      </div>
 
       <ion-item class="item-button-right" ng-repeat="subscriber in ctrl.subscribers | filter:newSubscriber.name">
         {{ subscriber }}
