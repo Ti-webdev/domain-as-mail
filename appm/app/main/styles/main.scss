@@ -71,7 +71,7 @@ ion-item.ionItemDevider {
   justify-content: space-around;
 }
 
-div.mailboxCancelButton {
+.mailboxCancelButton {
   background:#4b4b4b;
   box-shadow:0px 0px 1px 0px rgba(0,0,0,0.12), 0px 1px 2px 0px rgba(0,0,0,0.24);
   border-radius:5px;
@@ -87,7 +87,7 @@ div.mailboxCancelButton {
   text-align: center;
 }
 
-div.mailboxSaveBtn {
+.mailboxSaveBtn {
   background:#24c4bc;
   box-shadow:0px 0px 1px 0px rgba(0,0,0,0.12), 0px 1px 2px 0px rgba(0,0,0,0.24);
   border-radius:5px;
@@ -272,15 +272,15 @@ ion-content > div {
   height: 100%;
 }
 
-.domains a.item-content > div > div > p.DomainNameText {
+.domains a.item-content > div > div > .DomainNameText {
   font-family:Roboto-Regular;
   font-size:1.12rem;
-  height:1.2rem;
+  // height:1.2rem;
   color:#4b4b4b;
   letter-spacing:0px;
 }
 
-.domains a.item-content > div > div > p.DomainStatusText {
+.domains a.item-content > div > div > .DomainStatusText {
   font-family:Roboto-Regular;
   font-size:1rem;
   color:#24c4bc;

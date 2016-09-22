@@ -32,8 +32,8 @@
               <img class="domainLogo" ng-src="{{ domain.logo_url || domains.defaultLogo_Url }}">
           </div>
           <div style="display:flex; flex-direction:column;justify-content: center;">
-            <p class="DomainNameText">{{ domain.name }}</p>
-            <p class="DomainStatusText" ng-if="'added' !== domain.status">{{ domains.statusTitles[domain.status] || domain.status }}</h3>
+            <div class="DomainNameText">{{ domain.name }}</div>
+            <div class="DomainStatusText" ng-if="'added' !== domain.status">{{ domains.statusTitles[domain.status] || domain.status }}</div>
           </div>
         </div>
           <i class="icon ion-chevron-right icon-accessory"></i>
