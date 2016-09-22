@@ -6,12 +6,18 @@ angular.module('main')
     var dnsList = this
     dnsList.domain = $stateParams.domain
 
+    dnsList.log = log
+
     //DNS
     var $newDNSScope = $scope.$new()
     var newDNSRecordModal = $ionicModal.fromTemplateUrl('main/templates/dnsrecord_add.html', {
       scope: $newDNSScope,
       animation: 'slide-in-up'
     })
+
+    dnsList.stringify = function (dnsRecord) {
+      return JSON.stringify(dnsRecord)
+    }
 
     $newDNSScope.isEdit = false
 
@@ -78,8 +84,8 @@ angular.module('main')
         type = $newDNSScope.newDNS.type
 
       $newDNSScope.fields = {
-        content: 'Содержимое DNS записи',
         subdomain: 'Имя поддомена',
+        content: 'Содержимое DNS записи',
         ttl: 'Время жизни DNS-записи в секундах'
       }
 

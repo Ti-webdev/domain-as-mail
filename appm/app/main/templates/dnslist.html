@@ -1,16 +1,17 @@
 <ion-view view-title="DNS записи">
   <ion-nav-buttons side="right">
-    <button class="button button-icon icon ion-ios-plus-empty" ng-click="dnsList.processDNSRecord()"></button>
+    <button class="button button-icon icon ion-ios-plus-empty" ui-sref="main.dnsRecordAdd()"></button>
   </ion-nav-buttons>
-  <ion-content>
+  <ion-content class="ionContent">
     <ion-refresher
       pulling-text="Pull to refresh..."
       on-refresh="dnsList.doRefresh()">
     </ion-refresher>
     <ion-list>
-      <ion-item ng-repeat="dnsRecord in dnsList.dns" type="item-text-wrap" ng-click="dnsList.processDNSRecord(dnsRecord)">
-        <h2>{{ dnsRecord.type }} {{ dnsRecord.subdomain }}</h2>
-        <p>
+      <ion-item ng-repeat="dnsRecord in dnsList.dns" type="item-text-wrap"
+        ui-sref="main.dnsRecordAdd({domain:dnsList.domain, dns: dns = dnsList.stringify(dnsRecord)})">
+        <div style="font-family:Roboto-Bold;font-size:0.888rem;color:rgba(0,0,0,0.87)">{{ dnsRecord.type }} {{ dnsRecord.subdomain }}</div>
+        <p style="font-family:Roboto-Regular;font-size:0.7777rem;color:#b7b8bd;">
           {{ dnsRecord.content }}
         </p>
         <ion-delete-button class="ion-minus-circled"

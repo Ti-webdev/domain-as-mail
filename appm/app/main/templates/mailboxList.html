@@ -1,17 +1,18 @@
-<ion-view view-title="Почтовые ящики">
+<ion-view view-title="@{{mailboxList.domain}}">
   <ion-nav-buttons side="right">
-    <button class="button button-icon icon ion-ios-plus-empty" ng-click="mailboxList.addMailbox()"></button>
+    <button class="button button-icon icon ion-ios-plus-empty" ui-sref="main.mailboxAdd({domain: mailboxList.domain, isOwner: mailboxList.owner})"></button>
   </ion-nav-buttons>
-  <ion-content>
+  <ion-content class="ionContent">
     <ion-refresher
       pulling-text="Pull to refresh..."
       on-refresh="mailboxList.doRefresh()">
     </ion-refresher>
     <ion-list>
       <form ng-submit="domain.addMailbox()">
-        <div class="item item-input-inset">
-          <label class="item-input-wrapper">
-            <input ng-model="newAccount.login" type="text" placeholder="Поиск" required>
+        <div class="item item-input-inset" style="background-color:transparent">
+          <label class="searchInput item-input-wrapper">
+            <i class="searchIcon icon-append ion-ios-search-strong"></i>
+            <input ng-model="newAccount.login" type="text" required>
           </label>
         </div>
 
@@ -20,11 +21,16 @@
           class="item-icon-right"
           type="item-text-wrap"
           ui-sref="main.mailbox({domain: mailboxList.domain, login: account.login, isOwner: mailboxList.owner})">
-          <h2 ng-class="{'assertive': mailboxList.isBlocked(account)}">{{ account.login }}</h2>
-          <p>
-            {{ account.fio }}
-            <span ng-if="account.counters">(новых: {{account.counters.new}}, непрочитанных: {{account.counters.unread}})</span>
-          </p>
+          <div class="row">
+            <p style="font-family:Roboto-Bold;font-size:0.888rem;color:rgba(0,0,0,0.87);" ng-class="{'assertive': mailboxList.isBlocked(account)}">{{ account.prefix }}</p>
+            <p style="font-family:Roboto-Regular;font-size:0.888rem;color:#b7b8bd;">@{{mailboxList.domain}}</p>
+          </div>
+          <div class="row">
+            <p style="font-family:Roboto-Regular;font-size:0.7777rem;color:#b7b8bd;">
+              {{ account.fio }}
+              <span ng-if="account.counters">(новых: {{account.counters.new}}, из: {{account.counters.unread}})</span>
+            </p>
+          </div>
           <i class="icon ion-chevron-right icon-accessory"></i>
           <ion-delete-button class="ion-minus-circled"
                              ng-click="mailboxList.deleteMailbox(account)">

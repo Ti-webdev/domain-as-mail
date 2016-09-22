@@ -1,32 +1,48 @@
-<ion-modal-view>
-  <ion-header-bar class="bar-royal">
-    <h1 class="title">DNS запись {{ newDNS.type }}</h1>
-    <div class="buttons">
-      <button class="button button-clear" ng-click="dnsList.closeModal()">Закрыть</button>
-    </div>
-  </ion-header-bar>
-  <ion-content>
+<ion-view view-title="{{ctrl.newDNS.type}}">
+
+  <ion-content class="ionContent">
     <ion-list>
-      <form ng-submit="processDNSRecord(newDNS)">
+      <form ng-submit="ctrl.processDNSRecord(ctrl.newDNS)">
         <label ng-if="!isEdit" class="item item-input item-select">
-          <span class="input-label">Тип DNS записи</span>
-              <select ng-disabled="isEdit" ng-change="dnsList.refreshDNSRecordFieldList()" ng-options="recordType as recordType for recordType in recordTypeCollection" ng-model="newDNS.type">
+          <span class="input-label inputHeader">Тип DNS записи</span>
+              <select ng-disabled="isEdit"
+                      ng-change="ctrl.refreshDNSRecordFieldList()"
+                      ng-options="recordType as recordType for recordType in ctrl.recordTypeCollection"
+                      ng-model="ctrl.newDNS.type">
               </select>
         </label>
-        <label ng-if="isEdit" class="item item-input item-stacked-label">
-          <span class="input-label">Тип DNS записи</span>
-          <span class="input-label">"{{newDNS.type}}"</span>
-        </label>
-        <label class="item item-input item-stacked-label" ng-repeat="(key, title) in fields">
-          <span class="input-label">{{ title }}</span>
-          <input type="text" ng-model="newDNS[key]" required>
-        </label>
-        <div class="padding">
-          <button type="submit" class="button button-balanced button-block">
-            Сохранить!
-          </button>
+
+        <ion-item ng-if="isEdit" class="noBorderBottom mailItem item item-input item-stacked-label">
+          <span class="input-label inputHeader">Тип DNS записи</span>
+          <span class="input-label">"{{ctrl.newDNS.type}}"</span>
+        </ion-item>
+
+        <ion-item class="noBorderBottom mailItem item item-input item-stacked-label" style="height:100%;" ng-repeat="(key, title) in ctrl.fields">
+          <span class="input-label inputHeader">{{title}}</span>
+          <input class="inputText" type="text" ng-model="ctrl.newDNS[key]" required>
+        </ion-item>
+
+        <ion-item class="mailItem item-icon-right ionItemDevider">
+        </ion-item>
+
+        <div class="row buttonGroup">
+
+          <div style="display:flex;justify-content: space-between;">
+            <div style="display:flex;justify-content:flex-end;margin-right: 1rem">
+              <div class="mailboxSaveBtn button" ng-click="ctrl.processDNSRecord(ctrl.newDNS)">
+                <p class="mailboxSaveBtnText">Сохранить</p>
+              </div>
+            </div>
+
+            <div >
+              <div class="mailboxCancelButton button" ng-click="ctrl.goBack()">
+                <p class="mailboxSaveBtnText">Отмена</p>
+              </div>
+            </div>
+          </div>
         </div>
+
       </form>
     </ion-list>
   </ion-content>
-</ion-modal-view>
+</ion-view>

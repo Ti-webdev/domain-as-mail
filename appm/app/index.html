@@ -18,6 +18,8 @@
 
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/roboto-fontface/css/roboto/roboto-fontface.css" />
+    <link rel="stylesheet" href="bower_components/roboto-fontface/css/roboto-condensed/roboto-condensed-fontface.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -32,7 +34,7 @@
 
     <!-- the nav bar will be updated as we navigate between views -->
     <!-- <ion-nav-bar> can be removed when using sidemenu (contained in menu.html) -->
-    <ion-nav-bar class="bar-royal">
+    <ion-nav-bar>
       <ion-nav-back-button></ion-nav-back-button>
     </ion-nav-bar>
     <!-- the current view will be rendered in the <ion-nav-view> directive -->
@@ -77,13 +79,20 @@
     <script src="main/services/pdd-serv.js"></script>
     <script src="main/services/main-serv.js"></script>
     <script src="main/filters/idn-fil.js"></script>
+    <script src="main/controllers/subscribersAdd-ctrl.js"></script>
+    <script src="main/controllers/maillistAddList-ctrl.js"></script>
     <script src="main/controllers/maillist-ctrl.js"></script>
     <script src="main/controllers/mailboxList-ctrl.js"></script>
     <script src="main/controllers/mailbox-ctrl.js"></script>
+    <script src="main/controllers/mailbox_add-ctrl.js"></script>
     <script src="main/controllers/domains-ctrl.js"></script>
+    <script src="main/controllers/domainadd-ctrl.js"></script>
     <script src="main/controllers/domain-ctrl.js"></script>
+    <script src="main/controllers/dnsRecordAdd-ctrl.js"></script>
     <script src="main/controllers/dnslist-ctrl.js"></script>
     <script src="main/controllers/deputylist-ctrl.js"></script>
+    <script src="main/controllers/deputyAdd-ctrl.js"></script>
+    <script src="main/controllers/aliases-ctrl.js"></script>
     <script src="main/constants/config-const.js"></script>
     <script src="app.js"></script>
     <!-- endinject -->

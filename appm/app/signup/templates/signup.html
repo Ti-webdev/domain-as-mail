@@ -1,17 +1,26 @@
-<ion-view hide-nav-bar="true">
+<ion-view hide-nav-bar="true" class="signup">
   <ion-content scroll="false">
-    <form ng-submit="signup.submit()" method="post">
+    <form method="post" class="fullHeigth">
       <div class="list flex full-screen flex-column">
-        <div class="padding">
-          <a href="https://pddimp.yandex.ru/api2/admin/get_token" target="_blank" ng-click="signup.getApiKey($event)">
-            Получить API KEY
-          </a>
+        <div class="padding signupPadding flex">
+          <div class="apiKeyButton flex" href="https://pddimp.yandex.ru/api2/admin/get_tokenx" target="_blank" ng-click="signup.getApiKey()">
+            <div class="apiKeyButtonText">
+              Получить API key
+            </div>
+          </div>
         </div>
-        <label class="item item-input flex-full flex flex-column">
-          <textarea class="flex-full text-big-text text-code" name="name" ng-model="signup.apiKey" placeholder="Enter API KEY here…" rows="8" cols="40" autofocus></textarea>
-        </label>
-        <div class="padding">
-          <button type="submit" class="button button-block button-balanced" name="button">Сохранить</button>
+        <div class="apiKeyBackground flex-column flex">
+          <div class="apiKeyHeader">
+            API key
+          </div>
+          <textarea class="flex-full text-big-text text-code underline-text" name="name" ng-model="signup.apiKey" placeholder="Введите API ключ здесь..." rows="8" cols="40" autofocus></textarea>
+        </div>
+        <div class="padding signupPaddingBottom">
+          <div type="submit" class="saveApiKeyButton flex" ng-click="signup.submit()" name="button">
+            <div class="saveApiKeyButtonText">
+              Сохранить API key
+            </button>
+          </button>
         </div>
       </div>
     </form>

@@ -1,0 +1,31 @@
+<ion-view view-title="Новый домен">
+  <ion-content class="ionContent">
+    <ion-list>
+      <ion-item class="noBorderBottom mailItem item item-input item-stacked-label"
+            style="height:5rem; border-top-width:1px; z-index:0">
+          <span class="input-label inputHeader">Домен</span>
+          <input class="inputText" type="text" ng-model="ctrl.domain.name" required>
+        </ion-item>
+
+        <ion-item class="ionItemDevider noBorderBottom mailItem item-icon-right">
+        </ion-item>
+
+        <div class="row buttonGroup">
+          <div style="display:flex;justify-content: space-between;">
+            <div style="display:flex;justify-content:flex-end;margin-right: 1rem">
+              <div class="mailboxSaveBtn button" ng-click="ctrl.addDomain(ctrl.domain.name)">
+                <p class="mailboxSaveBtnText">Сохранить</p>
+              </div>
+            </div>
+
+            <div >
+              <div class="mailboxCancelButton button" ng-click="ctrl.goBack()">
+                <p class="mailboxSaveBtnText">Отмена</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </ion-list>
+  </ion-content>
+</ion-view>

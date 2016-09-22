@@ -15,9 +15,21 @@ angular.module('main')
     })
       .then(function (result) {
         mailbox.account = result.account || {}
+        mailbox.account.prefix = mailbox.account.login.split('@')[0]
         mailbox.account.blocked = 'yes' !== mailbox.account.enabled
         mailbox.realyBlocked = mailbox.account.blocked
         log('mailbox loaded ' + mailbox.account)
+
+        var
+          params = {
+            domain: mailbox.domain,
+            login: mailbox.login.toLowerCase(),
+          }
+
+        PDD.email.countersMailbox(params)
+          .then(function (result) {
+            mailbox.account.counters = result.counters
+          })
       })
       .catch(function (err) {
         log('error code: ' + err.code)
@@ -112,25 +124,7 @@ angular.module('main')
   mailbox.showAliases = function () {
     var account = mailbox.account
     $aliasesScope.account = account
-    $aliasesScope.addAlias = function (name) {
-      var params = {
-        domain: mailbox.domain,
-        login: account.login,
-        alias: name.toLowerCase()
-      }
-      PDD.email.addAlias(params)
-        .then(function (result) {
-          if (result.success && 'ok' === result.success) {
-            angular.extend(account, result.account)
-            $aliasesScope.newAlias.name = ''
-          }
-          else {
-            throw result
-          }
-        }, function (err) {
-          alert('Ошибка ' + angular.toJson(err))
-        })
-    }
+
     $aliasesScope.delAlias = function (name) {
       var params = {
         domain: mailbox.domain,
@@ -153,6 +147,10 @@ angular.module('main')
       $aliasesScope.modal = modal
       modal.show()
     })
+  }
+
+  mailbox.aliasesStringify = function(accounts) {
+    return JSON.stringify(accounts)
   }
 
   mailbox.getOAuthToken = function (account) {

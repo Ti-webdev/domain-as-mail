@@ -31,6 +31,15 @@ angular.module('main', [])
         }
       }
     })
+    .state('main.adddomain', {
+      url: '/domains/adddomain',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/domainadd.html',
+          controller: 'DomainAddCtrl as ctrl'
+        }
+      }
+    })
     .state('main.domain', {
       url: '/domain/:domain',
       views: {
@@ -57,6 +66,24 @@ angular.module('main', [])
         }
       }
     })
+    .state('main.mailboxAdd', {
+      url: '/domain/:domain/isOwner/:isOwner/mailboxAdd/',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/mailbox_add.html',
+          controller: 'MailboxAddCtrl as ctrl'
+        }
+      }
+    })
+    .state('main.aliases', {
+      url: '/domain/:domain/mailbox/:login/aliases/:aliases',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/aliases.html',
+          controller: 'aliasesCtrl as ctrl'
+        }
+      }
+    })
     .state('main.mailboxList', {
       url: '/domain/:domain/owner/:owner/mailbox',
       views: {
@@ -75,6 +102,15 @@ angular.module('main', [])
         }
       }
     })
+    .state('main.dnsRecordAdd', {
+      url: '/domain/:domain/dns/:dns',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/dnsrecord_add.html',
+          controller: 'dnsRecordAddCtrl as ctrl'
+        }
+      }
+    })
     .state('main.maillistList', {
       url: '/domain/:domain/maillist',
       views: {
@@ -84,12 +120,39 @@ angular.module('main', [])
         }
       }
     })
+    .state('main.maillistSubscribers', {
+      url: '/domain/:domain/maillist/maillist/:maillist',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/subscribers.html',
+          controller: 'subscribersAddCtrl as ctrl'
+        }
+      }
+    })
+    .state('main.maillistListAdd', {
+      url: '/domain/:domain/maillist/add',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/maillist_add.html',
+          controller: 'maillistAddCtrl as ctrl'
+        }
+      }
+    })
     .state('main.deputies', {
       url: '/domain/:domain/deputies',
       views: {
         'pageContent': {
           templateUrl: 'main/templates/deputylist.html',
           controller: 'deputyCtrlList as deputyList'
+        }
+      }
+    })
+    .state('main.deputy', {
+      url: '/domain/:domain/deputies/addDeputy',
+      views: {
+        'pageContent': {
+          templateUrl: 'main/templates/deputy_add.html',
+          controller: 'deputyAddCtrl as ctrl'
         }
       }
     })

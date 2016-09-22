@@ -1,56 +1,90 @@
 <ion-view view-title="{{ mailbox.login }}">
-  <ion-content>
+  <ion-content class="ionContent">
     <ion-refresher
       pulling-text="Pull to refresh..."
       on-refresh="mailbox.doRefresh()">
     </ion-refresher>
     <ion-list>
-      <ion-item class="item-icon-right" ng-click="mailbox.showAliases(mailbox.account)">
-        <i class="icon ion-ios-more"></i>
-        Управление алиасами
+      <div ng-if="mailbox.isOwner" class="mailboxFullHeader"
+          ng-click="mailbox.getOAuthToken(mailbox.account)">
+      </div>
+      <ion-item class="mailboxHeader" style="height:5rem;">
+        <div class="mailboxSubHeader">
+          {{mailbox.account.prefix}}
+        </div>
       </ion-item>
-      <ion-item ng-if="mailbox.isOwner && !mailbox.realyBlocked" class="item-icon-right" ng-click="mailbox.getOAuthToken(mailbox.account)">
+
+      <ion-item class="item-icon-right mailboxHeader"
+                style="height:4.8rem;"
+                ng-if="!mailbox.realyBlocked">
+        <i ng-if="mailbox.isOwner" class="icon ion-chevron-right icon-accessory"
+           style="font-size:1.5rem; color:white;" ></i>
+        <p class="mailboxHeaderText" >
+          Просмотреть почту
+        </p>
+        <p class="mailboxHeaderCounters">
+          Новых {{mailbox.account.counters.new}} из {{mailbox.account.counters.unread}}
+        </p>
+      </ion-item>
+
+      <ion-item style="height:3.111rem"
+                class="mailItem item-icon-right"
+                ui-sref="main.aliases({domain: mailbox.domain, login: mailbox.login, aliases: mailbox.aliasesStringify(mailbox.account.aliases)})">
         <i class="icon ion-chevron-right icon-accessory"></i>
-        Просмотреть почту
+        <p class="mailItemText">Управление</p>
       </ion-item>
-      <label class="item item-input item-stacked-label">
-        <span class="input-label">Фамилия</span>
-        <input type="text" ng-model="mailbox.account.fname">
-      </label>
-      <label class="item item-input item-stacked-label">
-        <span class="input-label">Имя</span>
-        <input type="text" ng-model="mailbox.account.iname">
-      </label>
-      <div class="item item-toggle">
-        Заблокирован
-        <label class="toggle toggle-assertive">
+
+      <ion-item style="height:3.111rem" class="mailItem item item-toggle">
+        <p class="mailItemText">Заблокировать</p>
+        <label class="toggle toggle-calm">
           <input type="checkbox" ng-model="mailbox.account.blocked">
           <div class="track">
             <div class="handle"></div>
           </div>
         </label>
+      </ion-item>
+
+      <ion-item style="height:4rem;border-top-width:1px; marin-top:0px" class="noBorderBottom mailItem item item-input item-stacked-label">
+        <span class="input-label inputHeader">Фамилия</span>
+        <input class="inputText" type="text" ng-model="mailbox.account.fname">
+      </ion-item>
+
+      <ion-item style="height:4rem" class="noBorderBottom mailItem item item-input item-stacked-label">
+        <span class="input-label inputHeader">Имя</span>
+        <input class="inputText" type="text" ng-model="mailbox.account.iname">
+      </ion-item>
+
+      <ion-item style="height:4rem" class="noBorderBottom mailItem item item-input item-stacked-label">
+        <span class="input-label inputHeader">Пароль</span>
+        <input class="inputText" type="password" ng-model="mailbox.account.password">
+      </ion-item>
+
+      <ion-item style="height:2.22rem" class="ionItemDevider noBorderBottom mailItem item-icon-right">
+      </ion-item>
+
+      <div class="row buttonGroup">
+
+        <div style="display:flex;justify-content: space-between;">
+          <div style="display:flex;justify-content:flex-end;margin-right: 1rem">
+            <div class="mailboxSaveBtn button" ng-click="mailbox.saveMailbox()">
+              <p class="mailboxSaveBtnText">Сохранить</p>
+            </div>
+          </div>
+
+          <div >
+            <div class="mailboxCancelButton button" ng-click="mailbox.goBack()">
+              <p class="mailboxSaveBtnText">Отмена</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <label class="item item-input item-stacked-label">
-        <span class="input-label">Пароль</span>
-        <input type="password" ng-model="mailbox.account.password">
-      </label>
+
+      <div class="padding">
+        <button ng-click="mailbox.deleteMailbox()" class="button button-clear button-assertive button-full">
+          Удалить ящик
+        </button>
+      </div>
     </ion-list>
-    <div class="row">
-      <div class="col">
-        <button ng-click="mailbox.saveMailbox()" class="button button-balanced button-block">
-          Сохранить
-        </button>
-      </div>
-      <div class="col">
-        <button ng-click="mailbox.goBack()" class="button button-dark button-clear button-block">
-          Отмена
-        </button>
-      </div>
-    </div>
-    <div class="padding">
-      <button ng-click="mailbox.deleteMailbox()" class="button button-clear button-assertive button-full">
-        Удалить ящик
-      </button>
-    </div>
+
   </ion-content>
 </ion-view>

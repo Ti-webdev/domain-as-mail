@@ -22,16 +22,12 @@ angular.module('main')
       login: '',
       password: ''
     }
-    var $mailboxScope = $scope.$new()
-    var mailboxModal = $ionicModal.fromTemplateUrl('main/templates/mailbox_add.html', {
-      scope: $mailboxScope,
-      animation: 'slide-in-up'
-    })
 
     mailboxList.doRefresh = function () {
       return PDD.email.query(mailboxList.domain)
         .then(function (result) {
           mailboxList.accounts = result.accounts.reduce(function(prev, cur) {
+            cur.prefix = cur.login.split('@')[0]
             return prev.concat(angular.isArray(cur) ? cur : [cur])
           }, []).filter(isNotMaillist)
         })
@@ -70,46 +66,16 @@ angular.module('main')
       var log = debug('app:domain:accounts')
       return PDD.email.query(mailboxList.domain)
         .then(function (result) {
-          mailboxList.accounts = result.accounts || []
+          mailboxList.accounts = result.accounts.reduce(function(prev, cur) {
+            cur.prefix = cur.login.split('@')[0]
+            return prev.concat(angular.isArray(cur) ? cur : [cur])
+          }, []) || []
           log('accounts loaded ' + mailboxList.accounts.length)
         })
         .catch(function (err) {
           log('error code: ' + err.code)
           throw err
         })
-    }
-
-    mailboxList.addMailbox = function () {
-      $mailboxScope.addMailbox = function (login, password) {
-        var params = {
-          domain: mailboxList.domain,
-          login: login.toLowerCase(),
-          password: password.toLowerCase()
-        }
-        PDD.email.addMailbox(params)
-          .then(function (result) {
-            if (result.success && 'ok' === result.success) {
-              mailboxList.refreshAccounts()
-              $mailboxScope.modal.hide()
-              $scope.newAccount = {
-                login: '',
-                password: ''
-              }
-            }
-            else if (result.error) {
-              throw new Error(result.error)
-            }
-            else {
-              throw new Error(angular.toJson(result))
-            }
-          }, function (err) {
-            alert('Ошибка ' + err.message)
-          })
-      }
-      mailboxModal.then(function (modal) {
-        $mailboxScope.modal = modal
-        modal.show()
-      })
     }
 
     mailboxList.deleteMailbox = function (account) {
