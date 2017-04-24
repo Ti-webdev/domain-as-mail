@@ -18,10 +18,14 @@ angular.module('main')
         mailbox.account.blocked = 'yes' !== mailbox.account.enabled
         mailbox.realyBlocked = mailbox.account.blocked
         log('mailbox loaded ' + mailbox.account)
-      })
-      .catch(function (err) {
-        log('error code: ' + err.code)
-        throw err
+      }, function (error) {
+        log('error', error)
+        mailbox.account = {
+          prefix: mailbox.login.split('@')[0],
+          blocked: false,
+          realyBlocked: false,
+          counters: null
+        }
       })
       .finally(function () {
         $scope.$broadcast('scroll.refreshComplete')
